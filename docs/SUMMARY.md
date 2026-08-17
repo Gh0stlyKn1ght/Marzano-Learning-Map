@@ -8,10 +8,10 @@ This page is the canonical navigation map for the repository. It remains useful 
 - [Roadmap](project/roadmap.md)
 - [Terminology](project/terminology.md)
 
-## Open Course
+## Course
 
 - [Teaching Practice Lab vision](product/index.md)
-- [Open course exercise system](product/course-exercises.md)
+- [Course exercise system](product/course-exercises.md)
 - [Lightweight UI design system](product/ui-design.md)
 - [Foundations: Think Like the Framework](paths/foundations/index.md)
 
@@ -25,12 +25,13 @@ This page is the canonical navigation map for the repository. It remains useful 
 
 - [Architecture overview](architecture/index.md)
 - [Technology and library decisions](architecture/libraries.md)
-- [Open course architecture](architecture/open-course.md)
+- [Public proprietary platform architecture](architecture/public-platform.md)
 
 ## Implementation
 
 - [Implementation index](implementation/README.md)
 - [MVP learning shell](implementation/mvp-shell.md)
+- [Local CI and release gates](implementation/local-ci.md)
 - [Security baseline](implementation/security-baseline.md)
 - [Validation checklist](implementation/testing.md)
 
@@ -48,14 +49,17 @@ This page is the canonical navigation map for the repository. It remains useful 
 
 ## Current implementation doctrine
 
-The repository is **open-course first**.
+Teaching Practice Lab is a **publicly accessible, privately owned course platform**.
 
 1. authoritative framework research,
 2. original course explanations and diagrams,
-3. open exercises and scenario practice,
+3. repeatable exercises and scenario practice,
 4. lightweight Next.js reader,
 5. MkDocs reference site,
 6. selective Three.js instructional visualization,
-7. optional Socratic defense tools.
+7. local release gates,
+8. Vercel production deployment.
 
-No login, XP, rank, badge, streak, mastery database, or saved progress is required for the core course.
+The core course does not require login, XP, ranks, badges, streaks, a mastery database, or saved progress.
+
+Copyright © 2026 Gh0stlyKn1ght. All Rights Reserved. See the repository `LICENSE` file.
