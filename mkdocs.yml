@@ -75,6 +75,16 @@ nav:
           - Examine Reasoning: course/dossiers/standards-based-instruction/examine-reasoning.md
           - Revise Knowledge: course/dossiers/standards-based-instruction/revise-knowledge.md
           - Cognitively Complex Tasks: course/dossiers/standards-based-instruction/cognitively-complex-tasks.md
+      - Conditions for Learning Dossiers:
+          - Overview: course/dossiers/conditions-for-learning/index.md
+          - Distinction Matrix: course/dossiers/conditions-for-learning/distinction-matrix.md
+          - Formative Assessment: course/dossiers/conditions-for-learning/formative-assessment.md
+          - Feedback and Progress: course/dossiers/conditions-for-learning/feedback-and-progress.md
+          - Interact with Content: course/dossiers/conditions-for-learning/interact-with-content.md
+          - Engagement Strategies: course/dossiers/conditions-for-learning/engagement-strategies.md
+          - Rules and Procedures: course/dossiers/conditions-for-learning/rules-and-procedures.md
+          - Relationships: course/dossiers/conditions-for-learning/relationships.md
+          - High Expectations: course/dossiers/conditions-for-learning/high-expectations.md
   - Project:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
