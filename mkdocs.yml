@@ -1,0 +1,94 @@
+site_name: Teaching Practice Lab
+site_description: Source-driven instructional practice, evidence, reflection, and reporting system.
+repo_url: https://github.com/Gh0stlyKn1ght/Marzano-Learning-Map
+repo_name: Gh0stlyKn1ght/Marzano-Learning-Map
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Documentation Map: SUMMARY.md
+  - Project:
+      - Doctrine: project/doctrine.md
+      - Roadmap: project/roadmap.md
+      - Terminology: project/terminology.md
+  - Frameworks:
+      - Overview: frameworks/index.md
+      - FTEM: frameworks/ftem/index.md
+      - Legacy 2011: frameworks/legacy-2011/index.md
+      - Versioning: frameworks/versioning.md
+  - Expertise:
+      - Overview: expertise/index.md
+      - Deliberate Practice: expertise/deliberate-practice.md
+      - Evidence Chain: expertise/evidence-chain.md
+      - Calibration: expertise/calibration.md
+  - Practice:
+      - Record Schema: practice/record-schema.md
+      - Observation Workflow: practice/observation-workflow.md
+      - Reflection Workflow: practice/reflection-workflow.md
+      - Privacy: practice/privacy.md
+  - Reports:
+      - Overview: reports/index.md
+      - Observation Brief: reports/observation-brief.md
+      - Lesson Evidence: reports/lesson-evidence.md
+      - Growth Report: reports/growth-report.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Documentation: architecture/documentation.md
+      - Libraries: architecture/libraries.md
+      - Content Model: architecture/content-model.md
+      - Future Next.js App: architecture/nextjs-app.md
+  - Sources:
+      - Source Policy: sources/index.md
+      - Registry: sources/registry.md
+      - Research Workflow: sources/research-workflow.md
+      - Copyright: sources/copyright.md
