@@ -46,175 +46,100 @@ Research dossiers now exist for all ten current Standards-Based Instruction elem
 
 `docs/course/dossiers/standards-based-instruction/`
 
-The dossiers currently establish:
+The dossiers establish current names/grouping, public-source claims where available, Teaching Practice Lab interpretations, original CS examples, evidence/non-evidence distinctions, neighboring concepts, adaptation questions, defense prompts, and explicit unresolved protocol details.
 
-- verified current element names,
-- verified MEC cognitive-demand grouping,
-- public-source claims where MEC exposes enough detail,
-- Teaching Practice Lab instructional interpretations,
-- original CS examples,
-- strong-evidence examples,
-- false positives,
-- nearest-neighbor distinctions,
-- adaptation questions,
-- defense prompts,
-- explicit unresolved protocol-level questions.
+High-value remaining work:
 
-### Identifying Critical Content
-
-Baseline complete. Public MEC material gives unusually strong support here, including a public focus/desired-effect example through `MEC-CLARITY`.
-
-Still need:
-
-- current licensed protocol wording,
-- confirmation of any changes from the publicly quoted 2017 wording,
-- authorized/current technique list if needed for internal research.
-
-### Previewing New Content
-
-Baseline complete. `MEC-ELEMENTS` publicly provides a focus/desired-effect example.
-
-Still need:
-
-- current licensed protocol wording,
+- current focus statements and desired effects where not public,
 - current authorized technique examples,
-- deeper source support for the boundary with Reviewing Content.
+- stronger primary-source support for Previewing vs Reviewing, Processing vs Elaborating, Reviewing vs Practice, Elaborating vs Examining Reasoning, Examining Reasoning vs Revising Knowledge,
+- precise current relationship between Cognitively Complex Tasks and Marzano taxonomy.
 
-### Processing New Content
+The distinction matrix remains **our analysis**, not an official Marzano crosswalk.
 
-Baseline complete from current element identity/grouping plus original instructional analysis.
+## Priority 2 — Conditions for Learning
 
-Still need:
+**Public-source baseline: COMPLETE. Protocol-depth verification: OPEN.**
 
-- current focus statement,
-- current desired effect,
-- current official treatment of chunking, representation, interaction, or related techniques before presenting any as Marzano-specific.
+Research dossiers now exist for all seven current Conditions for Learning elements under:
 
-### Using Questions to Help Students Elaborate on Content
+`docs/course/dossiers/conditions-for-learning/`
 
-Baseline complete.
+Current public MEC material verifies the seven-element structure and the three thematic groupings:
 
-Still need:
+- Monitoring Student Progress and Feedback,
+- Rigorous Learning,
+- Classroom Environment.
 
-- current focus statement and desired effect,
-- current official description of elaborative questioning,
-- stronger authoritative distinction from generic questioning and Examining Reasoning.
-
-### Reviewing Content
-
-Baseline complete.
-
-Still need:
-
-- current focus statement and desired effect,
-- current timing/purpose language,
-- stronger official source support distinguishing Reviewing from Previewing.
-
-Important: do not collapse Marzano's Reviewing Content element into the broader cognitive-science concept of retrieval practice. They may overlap in implementation, but they are not automatically identical constructs.
-
-### Helping Students Practice Skills, Strategies, and Processes
-
-Baseline complete.
-
-Still need:
-
-- current focus statement and desired effect,
-- current official distinctions among skills, strategies, and processes,
-- authorized/current technique examples.
-
-### Helping Students Examine Similarities and Differences
-
-Baseline complete.
-
-Still need:
-
-- current focus statement and desired effect,
-- verification of whether comparison, classification, metaphor, and analogy remain explicitly named current-protocol categories before teaching them as official FTEM technique categories.
-
-### Helping Students Examine Their Reasoning
-
-Baseline complete. `MEC-CLASSROOM-CONDITIONS` provides current public support that rigorous learning includes examining reasoning and debating conclusions.
-
-Still need:
-
-- current focus statement and desired effect,
-- current official reasoning categories, if any,
-- stronger source support for the boundary between explaining reasoning and evaluating reasoning.
-
-### Helping Students Revise Their Knowledge
-
-Baseline complete.
-
-Still need:
-
-- current focus statement and desired effect,
-- current public/authorized examples of genuine knowledge revision,
-- official distinction from simple error correction if available.
-
-### Helping Students Engage in Cognitively Complex Tasks
-
-Baseline complete. `MEC-ELEMENTS` places the element at Knowledge Utilization and `MEC-CLASSROOM-CONDITIONS` publicly connects it to real-world problems, inquiry, analysis, problem solving, creating solutions, and defending conclusions.
-
-Still need:
-
-- current focus statement and desired effect,
-- precise current relationship to Marzano's taxonomy,
-- current authorized technique examples,
-- stronger source language distinguishing cognitive complexity from workload/difficulty.
-
-### Cross-element discrimination
-
-A first Teaching Practice Lab distinction matrix now exists.
-
-Still need authoritative support where possible for these high-value pairs:
-
-- Previewing vs Reviewing,
-- Processing vs Elaborating,
-- Reviewing vs Practice,
-- Elaborating vs Examining Reasoning,
-- Examining Reasoning vs Revising Knowledge,
-- Engagement vs Cognitively Complex Tasks.
-
-The current matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
-
-## Priority 2 — Conditions for Learning depth
+The dossiers establish public-source claims where available, Teaching Practice Lab interpretations, original CS/technology classroom examples, false positives, adaptation questions, defense prompts, and unresolved protocol-level details.
 
 ### Formative Assessment vs Feedback
 
-Need a precise sourced distinction between:
+Baseline complete. Current MEC material supports student ownership, self-reflection, goal-setting, progress tracking, teacher feedback, and recognition of progress.
 
-- gathering/tracking evidence of progress,
-- providing feedback and recognizing progress.
+Still need:
+
+- exact current focus statement / desired effect for each,
+- current authorized technique examples,
+- stronger official language separating the evidence-gathering function from the feedback function.
 
 ### Interaction vs Engagement
 
-Need current source material allowing us to explain why:
+Baseline complete. Current MEC material supports structured collaboration, students doing intellectual work, cognitive engagement, productive struggle, discussion, dialogue, hands-on activity, relevance, and problem solving.
 
-- group seating is not automatically interaction with content,
-- visible enthusiasm is not automatically the desired effect of engagement strategies.
+Still need:
+
+- exact current focus statements and desired effects,
+- current authorized technique examples,
+- stronger official discrimination language if available.
 
 ### Rules and Procedures
 
-Need depth beyond compliance:
+Baseline established from current element identity and MEC classroom-environment grouping.
 
-- how procedures support access to learning,
-- appropriate evidence,
-- teacher response when procedures break down.
+Still need substantial protocol-depth evidence for:
+
+- official desired effect,
+- current techniques,
+- evidence descriptors,
+- current guidance on acknowledging adherence and responding to breakdowns.
 
 ### Relationships
 
-Need current source framing for student-centered classroom relationships without drifting into unsourced generic relationship advice.
+Baseline complete. Current MEC material supports trust, respect, open communication, feeling valued, empathy, conflict resolution, and supportive community.
+
+Still need:
+
+- exact current focus statement and desired effect,
+- current technique examples,
+- official evidence descriptors.
 
 ### High Expectations / Achievement Gap
 
-Need careful authoritative sourcing because this topic can be flattened into slogans.
+Cautious baseline established. Current MEC material supports belief in student potential, confidence, motivation, persistence, academic growth, and community.
 
-Research:
+Still need deeper authoritative sourcing before publishing anything that sounds like official gap-closing guidance:
 
-- what current FTEM materials mean by high expectations,
-- evidence,
-- equitable access/support,
-- false positives such as identical treatment regardless of need.
+- exact current focus statement and desired effect,
+- current evidence descriptors,
+- current official treatment of equitable support / access,
+- current technique examples,
+- relationship to the Standards-Based Planning gap-closing element.
+
+### Cross-element discrimination
+
+A first Teaching Practice Lab Conditions distinction matrix now exists.
+
+Priority pairs:
+
+- Formative Assessment vs Feedback,
+- Interaction with Content vs Engagement,
+- Rules & Procedures vs Relationships,
+- Relationships vs High Expectations,
+- Engagement vs Cognitively Complex Tasks,
+- High Expectations vs Equal Treatment.
+
+The matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
 
 ## Priority 3 — Professional Responsibilities depth
 
