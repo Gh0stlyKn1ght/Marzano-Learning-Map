@@ -6,26 +6,38 @@ The rule is simple:
 
 > If the source is incomplete, the course should say so. Do not fill framework gaps from memory.
 
-## Priority 0 — Required before full FTEM authoring
+## Priority 0 — Standards-Based Planning
 
-### Standards-Based Planning exact labels
+**Public-source baseline: COMPLETE. Exact canonical title verification for Elements 2 and 3: OPEN. Protocol-depth verification: OPEN.**
 
-Current public Marzano Evaluation Center material clearly identifies a three-competency Planning domain and explicitly names **Planning Standards-Based Lessons/Units**, while describing the other planning areas.
+Research dossiers now exist for all three Standards-Based Planning functions under:
 
-Need:
+`docs/course/dossiers/standards-based-planning/`
 
-- exact current canonical names of all three planning competencies,
-- current desired-effect wording or sufficiently authoritative descriptions for internal analysis,
-- current public evidence/technique descriptions that can be safely paraphrased,
-- confirmation of any recent terminology changes.
+Current MEC public material confirms:
 
-Preferred source:
+- Standards-Based Planning contains 3 elements,
+- Element 1 is **Planning Standards-Based Lessons/Units**,
+- Element 2 connects aligned tasks to traditional/digital resources that match the standard and appropriate taxonomy level,
+- Element 3 plans measures that track all students' progress and support closing achievement gaps,
+- the current FTEM overview summarizes the domain as planning standards-based lessons, aligning resources, and using data to close gaps.
 
-1. current official FTEM protocol/report,
-2. current licensed district/state copy if legally available,
-3. direct Marzano Evaluation Center material.
+Older Focused Teacher Evaluation materials and secondary sources commonly use the labels:
 
-Do not encode guessed labels.
+- **Aligning Resources to Standard(s)**,
+- **Planning to Close the Achievement Gap Using Data**.
+
+Teaching Practice Lab treats those as working/historical labels until a current first-party MEC source explicitly confirms the exact canonical titles.
+
+Still need:
+
+- exact current canonical titles for Elements 2 and 3,
+- current focus statements and desired effects for all three,
+- current official planning-conference prompts and evidence descriptors,
+- current developmental-scale wording,
+- confirmation of any terminology changes since the earlier Focused model documents.
+
+Do not encode exact protocol wording from memory or older materials as current.
 
 ### Current model version history
 
@@ -78,53 +90,18 @@ Current MEC material verifies the three element names:
 2. Maintaining Expertise in Content and Pedagogy
 3. Promoting Teacher Leadership and Collaboration
 
-The dossiers establish public-source claims, Teaching Practice Lab interpretations, original CS/technology examples, false positives, adaptation/improvement questions, defense prompts, and unresolved protocol-level details.
+Remaining work focuses on exact current focus statements, desired effects, evidence examples, developmental-scale language, and stronger official distinctions among compliance, expertise, leadership, and collaboration.
 
-### Policies and Procedures
+## Research coverage status
 
-Baseline complete from current element identity and FTEM professional-responsibility framing.
+Teaching Practice Lab now has a usable public-source research baseline for the **full 23-competency FTEM structure**:
 
-Still need:
+- Standards-Based Planning: 3 / 3 functions researched
+- Standards-Based Instruction: 10 / 10 elements researched
+- Conditions for Learning: 7 / 7 elements researched
+- Professional Responsibilities: 3 / 3 elements researched
 
-- exact current focus statement and desired effect,
-- current official evidence examples,
-- developmental-scale language,
-- stronger official guidance on the boundary between compliance and professional judgment.
-
-### Expertise in Content and Pedagogy
-
-Baseline complete with strong support from current MEC deliberate-practice, feedback, common-language, observation/discussion, clarity, and recognition-of-progress materials.
-
-Still need:
-
-- exact current focus statement and desired effect,
-- official evidence examples,
-- developmental-scale language,
-- any current protocol-specific professional-learning artifacts or categories.
-
-### Teacher Leadership and Collaboration
-
-Baseline complete. Current MEC material supports teacher leadership, mentoring, collaborative problem solving, shared responsibility, common assessment work, analysis of student learning, reflection on instruction, and observation/discussion of teaching and learning.
-
-Still need:
-
-- exact current focus statement and desired effect,
-- official evidence examples,
-- developmental-scale language,
-- current FTEM distinctions among leadership, mentoring, collaboration, PLC participation, and shared responsibility.
-
-### Cross-element discrimination
-
-A first Teaching Practice Lab distinction matrix now exists.
-
-Priority distinctions:
-
-- Policies & Procedures vs Expertise,
-- Expertise vs Leadership & Collaboration,
-- Collaboration vs Division of Labor,
-- Compliance vs broader Professionalism.
-
-The matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
+This does **not** mean every protocol-level detail is verified. The remaining work is depth, calibration, exact current wording, and source resolution rather than basic framework coverage.
 
 ## Priority 4 — Observation and defense research
 
