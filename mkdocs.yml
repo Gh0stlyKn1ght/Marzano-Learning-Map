@@ -62,6 +62,13 @@ nav:
       - Learning Design: course/learning-design.md
       - FTEM Framework Map: course/framework-map.md
       - Research Backlog: course/research-backlog.md
+      - Standards-Based Planning Dossiers:
+          - Overview: course/dossiers/standards-based-planning/index.md
+          - Planning Standards-Based Lessons/Units: course/dossiers/standards-based-planning/planning-standards-based-lessons-units.md
+          - Aligning Resources: course/dossiers/standards-based-planning/aligning-resources.md
+          - Planning with Data to Close Gaps: course/dossiers/standards-based-planning/planning-with-data-to-close-gaps.md
+          - Distinction Matrix: course/dossiers/standards-based-planning/distinction-matrix.md
+          - Canonical Title Status: course/dossiers/standards-based-planning/canonical-title-status.md
       - Standards-Based Instruction Dossiers:
           - Overview: course/dossiers/standards-based-instruction/index.md
           - Distinction Matrix: course/dossiers/standards-based-instruction/distinction-matrix.md
