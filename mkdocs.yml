@@ -1,5 +1,5 @@
 site_name: Teaching Practice Lab
-site_description: Game-based instructional mastery platform for learning, practicing, defending, and transferring teaching frameworks.
+site_description: Open-source course for learning, practicing, and defending instructional frameworks.
 repo_url: https://github.com/Gh0stlyKn1ght/Marzano-Learning-Map
 repo_name: Gh0stlyKn1ght/Marzano-Learning-Map
 edit_uri: edit/main/docs/
@@ -61,15 +61,10 @@ nav:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
       - Terminology: project/terminology.md
-  - Product:
+  - Open Course:
       - Vision: product/index.md
-      - Mastery System: product/mastery-system.md
-      - Mastery Engine v0.1: product/mastery-engine.md
-      - Rank Gates: product/rank-gates.md
-      - Challenge System: product/challenge-system.md
+      - Exercise System: product/course-exercises.md
       - UI Design: product/ui-design.md
-      - Build Roadmap: product/build-roadmap.md
-  - Learning Paths:
       - Foundations: paths/foundations/index.md
   - Frameworks:
       - Overview: frameworks/index.md
@@ -78,8 +73,7 @@ nav:
   - Architecture:
       - Overview: architecture/index.md
       - Libraries: architecture/libraries.md
-      - Game Platform: architecture/game-platform.md
-      - Data Model: architecture/data-model.md
+      - Open Course: architecture/open-course.md
   - Sources:
       - Source Policy: sources/index.md
       - Registry: sources/registry.md
