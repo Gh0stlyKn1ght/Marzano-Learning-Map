@@ -32,6 +32,18 @@ These documents are the current priority. They define what must be known and ver
 - [Helping Students Revise Their Knowledge](course/dossiers/standards-based-instruction/revise-knowledge.md)
 - [Helping Students Engage in Cognitively Complex Tasks](course/dossiers/standards-based-instruction/cognitively-complex-tasks.md)
 
+### Conditions for Learning research dossiers
+
+- [Dossier index](course/dossiers/conditions-for-learning/index.md)
+- [Distinction matrix](course/dossiers/conditions-for-learning/distinction-matrix.md)
+- [Using Formative Assessment to Track Progress](course/dossiers/conditions-for-learning/formative-assessment.md)
+- [Providing Feedback and Celebrating Progress](course/dossiers/conditions-for-learning/feedback-and-progress.md)
+- [Organizing Students to Interact with Content](course/dossiers/conditions-for-learning/interact-with-content.md)
+- [Using Engagement Strategies](course/dossiers/conditions-for-learning/engagement-strategies.md)
+- [Establishing and Acknowledging Adherence to Rules and Procedures](course/dossiers/conditions-for-learning/rules-and-procedures.md)
+- [Establishing and Maintaining Effective Relationships in Student-Centered Classrooms](course/dossiers/conditions-for-learning/relationships.md)
+- [Communicating High Expectations for Each Student to Close the Achievement Gap](course/dossiers/conditions-for-learning/high-expectations.md)
+
 ### Course/product references
 
 - [Teaching Practice Lab product vision](product/index.md)
