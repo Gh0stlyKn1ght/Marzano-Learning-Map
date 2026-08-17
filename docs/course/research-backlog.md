@@ -42,26 +42,17 @@ This timeline should distinguish **model release**, **document update**, and **w
 
 **Public-source baseline: COMPLETE. Protocol-depth verification: OPEN.**
 
-Research dossiers now exist for all ten current Standards-Based Instruction elements under:
+Research dossiers exist for all ten current Standards-Based Instruction elements under:
 
 `docs/course/dossiers/standards-based-instruction/`
 
-The dossiers establish current names/grouping, public-source claims where available, Teaching Practice Lab interpretations, original CS examples, evidence/non-evidence distinctions, neighboring concepts, adaptation questions, defense prompts, and explicit unresolved protocol details.
-
-High-value remaining work:
-
-- current focus statements and desired effects where not public,
-- current authorized technique examples,
-- stronger primary-source support for Previewing vs Reviewing, Processing vs Elaborating, Reviewing vs Practice, Elaborating vs Examining Reasoning, Examining Reasoning vs Revising Knowledge,
-- precise current relationship between Cognitively Complex Tasks and Marzano taxonomy.
-
-The distinction matrix remains **our analysis**, not an official Marzano crosswalk.
+Remaining work focuses on current protocol-level focus statements, desired effects, authorized technique examples, and stronger primary-source support for high-value distinctions.
 
 ## Priority 2 — Conditions for Learning
 
 **Public-source baseline: COMPLETE. Protocol-depth verification: OPEN.**
 
-Research dossiers now exist for all seven current Conditions for Learning elements under:
+Research dossiers exist for all seven current Conditions for Learning elements under:
 
 `docs/course/dossiers/conditions-for-learning/`
 
@@ -71,89 +62,69 @@ Current public MEC material verifies the seven-element structure and the three t
 - Rigorous Learning,
 - Classroom Environment.
 
-The dossiers establish public-source claims where available, Teaching Practice Lab interpretations, original CS/technology classroom examples, false positives, adaptation questions, defense prompts, and unresolved protocol-level details.
+Remaining work focuses on exact current protocol language, official evidence descriptors, authorized technique examples, and deeper sourcing for high expectations / achievement-gap guidance.
 
-### Formative Assessment vs Feedback
+## Priority 3 — Professional Responsibilities
 
-Baseline complete. Current MEC material supports student ownership, self-reflection, goal-setting, progress tracking, teacher feedback, and recognition of progress.
+**Public-source baseline: COMPLETE. Protocol-depth verification: OPEN.**
 
-Still need:
+Research dossiers now exist for all three current Professional Responsibilities elements under:
 
-- exact current focus statement / desired effect for each,
-- current authorized technique examples,
-- stronger official language separating the evidence-gathering function from the feedback function.
+`docs/course/dossiers/professional-responsibilities/`
 
-### Interaction vs Engagement
+Current MEC material verifies the three element names:
 
-Baseline complete. Current MEC material supports structured collaboration, students doing intellectual work, cognitive engagement, productive struggle, discussion, dialogue, hands-on activity, relevance, and problem solving.
+1. Adhering to School and District Policies and Procedures
+2. Maintaining Expertise in Content and Pedagogy
+3. Promoting Teacher Leadership and Collaboration
 
-Still need:
-
-- exact current focus statements and desired effects,
-- current authorized technique examples,
-- stronger official discrimination language if available.
-
-### Rules and Procedures
-
-Baseline established from current element identity and MEC classroom-environment grouping.
-
-Still need substantial protocol-depth evidence for:
-
-- official desired effect,
-- current techniques,
-- evidence descriptors,
-- current guidance on acknowledging adherence and responding to breakdowns.
-
-### Relationships
-
-Baseline complete. Current MEC material supports trust, respect, open communication, feeling valued, empathy, conflict resolution, and supportive community.
-
-Still need:
-
-- exact current focus statement and desired effect,
-- current technique examples,
-- official evidence descriptors.
-
-### High Expectations / Achievement Gap
-
-Cautious baseline established. Current MEC material supports belief in student potential, confidence, motivation, persistence, academic growth, and community.
-
-Still need deeper authoritative sourcing before publishing anything that sounds like official gap-closing guidance:
-
-- exact current focus statement and desired effect,
-- current evidence descriptors,
-- current official treatment of equitable support / access,
-- current technique examples,
-- relationship to the Standards-Based Planning gap-closing element.
-
-### Cross-element discrimination
-
-A first Teaching Practice Lab Conditions distinction matrix now exists.
-
-Priority pairs:
-
-- Formative Assessment vs Feedback,
-- Interaction with Content vs Engagement,
-- Rules & Procedures vs Relationships,
-- Relationships vs High Expectations,
-- Engagement vs Cognitively Complex Tasks,
-- High Expectations vs Equal Treatment.
-
-The matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
-
-## Priority 3 — Professional Responsibilities depth
+The dossiers establish public-source claims, Teaching Practice Lab interpretations, original CS/technology examples, false positives, adaptation/improvement questions, defense prompts, and unresolved protocol-level details.
 
 ### Policies and Procedures
 
-Need scenarios where professional judgment and institutional requirements interact.
+Baseline complete from current element identity and FTEM professional-responsibility framing.
+
+Still need:
+
+- exact current focus statement and desired effect,
+- current official evidence examples,
+- developmental-scale language,
+- stronger official guidance on the boundary between compliance and professional judgment.
 
 ### Expertise in Content and Pedagogy
 
-Research deliberate practice, professional learning, self-assessment, and maintaining expertise.
+Baseline complete with strong support from current MEC deliberate-practice, feedback, common-language, observation/discussion, clarity, and recognition-of-progress materials.
+
+Still need:
+
+- exact current focus statement and desired effect,
+- official evidence examples,
+- developmental-scale language,
+- any current protocol-specific professional-learning artifacts or categories.
 
 ### Teacher Leadership and Collaboration
 
-Research current Marzano framing and examples that distinguish productive collaboration from participation alone.
+Baseline complete. Current MEC material supports teacher leadership, mentoring, collaborative problem solving, shared responsibility, common assessment work, analysis of student learning, reflection on instruction, and observation/discussion of teaching and learning.
+
+Still need:
+
+- exact current focus statement and desired effect,
+- official evidence examples,
+- developmental-scale language,
+- current FTEM distinctions among leadership, mentoring, collaboration, PLC participation, and shared responsibility.
+
+### Cross-element discrimination
+
+A first Teaching Practice Lab distinction matrix now exists.
+
+Priority distinctions:
+
+- Policies & Procedures vs Expertise,
+- Expertise vs Leadership & Collaboration,
+- Collaboration vs Division of Labor,
+- Compliance vs broader Professionalism.
+
+The matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
 
 ## Priority 4 — Observation and defense research
 
