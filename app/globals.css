@@ -53,6 +53,7 @@ h2 { font-size:1.15rem; letter-spacing:-.02em; }
 .action strong { display:block; margin-bottom:5px; }
 .button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:0 15px; border:1px solid #777f8b; border-radius:12px; background:#e9edf2; color:#101216; font-weight:700; }
 .button.secondary { background:transparent; color:var(--text); border-color:var(--line); }
+.button:hover { transform:translateY(-1px); }
 
 .rank { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; }
 .rank strong { font-size:1.35rem; }
@@ -65,9 +66,13 @@ h2 { font-size:1.15rem; letter-spacing:-.02em; }
 .choice[data-state="correct"] { border-color:#9da7b5; background:#252a31; }
 .choice[data-state="wrong"] { opacity:.55; }
 .feedback { margin-top:16px; padding:16px; border:1px solid var(--line); border-radius:14px; color:var(--muted); line-height:1.6; }
+.site-footer { display:flex; justify-content:space-between; gap:18px; margin-top:30px; padding:24px 2px 0; border-top:1px solid var(--line); color:var(--soft); font-size:.74rem; }
 
 @media (max-width: 760px) {
   .hero,.grid { grid-template-columns:1fr; }
   .topbar { align-items:flex-start; flex-direction:column; }
   .card { padding:20px; border-radius:20px; }
+  .action { align-items:flex-start; flex-direction:column; }
+  .action .button { width:100%; }
+  .site-footer { flex-direction:column; }
 }
