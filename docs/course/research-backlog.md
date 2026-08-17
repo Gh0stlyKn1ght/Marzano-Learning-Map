@@ -38,100 +38,144 @@ Need a clean timeline documenting:
 
 This timeline should distinguish **model release**, **document update**, and **website update**.
 
-## Priority 1 — Course-depth research
+## Priority 1 — Standards-Based Instruction
+
+**Public-source baseline: COMPLETE. Protocol-depth verification: OPEN.**
+
+Research dossiers now exist for all ten current Standards-Based Instruction elements under:
+
+`docs/course/dossiers/standards-based-instruction/`
+
+The dossiers currently establish:
+
+- verified current element names,
+- verified MEC cognitive-demand grouping,
+- public-source claims where MEC exposes enough detail,
+- Teaching Practice Lab instructional interpretations,
+- original CS examples,
+- strong-evidence examples,
+- false positives,
+- nearest-neighbor distinctions,
+- adaptation questions,
+- defense prompts,
+- explicit unresolved protocol-level questions.
 
 ### Identifying Critical Content
 
-Collect current official material addressing:
+Baseline complete. Public MEC material gives unusually strong support here, including a public focus/desired-effect example through `MEC-CLARITY`.
 
-- purpose,
-- desired student effect,
-- examples/techniques,
-- evidence,
-- common implementation errors.
+Still need:
 
-Course questions:
-
-- How is critical content different from writing an objective on the board?
-- How should critical content be signaled in a CS lesson?
-- What evidence indicates students know what is important rather than merely what was highlighted?
+- current licensed protocol wording,
+- confirmation of any changes from the publicly quoted 2017 wording,
+- authorized/current technique list if needed for internal research.
 
 ### Previewing New Content
 
-Research:
+Baseline complete. `MEC-ELEMENTS` publicly provides a focus/desired-effect example.
 
-- prior knowledge activation,
-- relationship to upcoming content,
-- evidence of connection,
-- distinction from Reviewing Content.
+Still need:
+
+- current licensed protocol wording,
+- current authorized technique examples,
+- deeper source support for the boundary with Reviewing Content.
 
 ### Processing New Content
 
-Research:
+Baseline complete from current element identity/grouping plus original instructional analysis.
 
-- what counts as active processing,
-- student evidence,
-- role of chunking/interaction if current source supports it,
-- distinction from elaboration.
+Still need:
 
-### Elaborating on Content
+- current focus statement,
+- current desired effect,
+- current official treatment of chunking, representation, interaction, or related techniques before presenting any as Marzano-specific.
 
-Research:
+### Using Questions to Help Students Elaborate on Content
 
-- purpose of elaborative questioning,
-- student explanation/inference,
-- distinction from generic teacher questioning.
+Baseline complete.
+
+Still need:
+
+- current focus statement and desired effect,
+- current official description of elaborative questioning,
+- stronger authoritative distinction from generic questioning and Examining Reasoning.
 
 ### Reviewing Content
 
-Research:
+Baseline complete.
 
-- purpose/timing,
-- evidence,
-- distinction from previewing and retrieval practice as a learning-science technique.
+Still need:
 
-Important: do not collapse Marzano's element into the broader cognitive-science concept of retrieval practice. They may overlap in implementation, but they are not automatically identical constructs.
+- current focus statement and desired effect,
+- current timing/purpose language,
+- stronger official source support distinguishing Reviewing from Previewing.
 
-### Practice Skills, Strategies, and Processes
+Important: do not collapse Marzano's Reviewing Content element into the broader cognitive-science concept of retrieval practice. They may overlap in implementation, but they are not automatically identical constructs.
 
-Research:
+### Helping Students Practice Skills, Strategies, and Processes
 
-- practice progression,
-- feedback/error correction,
-- procedural fluency,
-- evidence of improvement.
+Baseline complete.
 
-### Similarities and Differences
+Still need:
 
-Research:
+- current focus statement and desired effect,
+- current official distinctions among skills, strategies, and processes,
+- authorized/current technique examples.
 
-- comparison/classification/analogy if supported by current material,
-- desired effect,
-- false positives such as simple feature listing.
+### Helping Students Examine Similarities and Differences
 
-### Examine Reasoning
+Baseline complete.
 
-Research:
+Still need:
 
-- types of reasoning the current model emphasizes,
-- student evidence,
-- distinction between checking correctness and analyzing reasoning.
+- current focus statement and desired effect,
+- verification of whether comparison, classification, metaphor, and analogy remain explicitly named current-protocol categories before teaching them as official FTEM technique categories.
 
-### Revise Knowledge
+### Helping Students Examine Their Reasoning
 
-Research:
+Baseline complete. `MEC-CLASSROOM-CONDITIONS` provides current public support that rigorous learning includes examining reasoning and debating conclusions.
 
-- revision of understanding/mental models,
-- evidence of actual revision,
-- distinction from merely correcting an answer.
+Still need:
 
-### Cognitively Complex Tasks
+- current focus statement and desired effect,
+- current official reasoning categories, if any,
+- stronger source support for the boundary between explaining reasoning and evaluating reasoning.
 
-Research:
+### Helping Students Revise Their Knowledge
 
-- current definition/characteristics,
-- relationship to knowledge utilization,
-- distinction between complexity, difficulty, workload, and project length.
+Baseline complete.
+
+Still need:
+
+- current focus statement and desired effect,
+- current public/authorized examples of genuine knowledge revision,
+- official distinction from simple error correction if available.
+
+### Helping Students Engage in Cognitively Complex Tasks
+
+Baseline complete. `MEC-ELEMENTS` places the element at Knowledge Utilization and `MEC-CLASSROOM-CONDITIONS` publicly connects it to real-world problems, inquiry, analysis, problem solving, creating solutions, and defending conclusions.
+
+Still need:
+
+- current focus statement and desired effect,
+- precise current relationship to Marzano's taxonomy,
+- current authorized technique examples,
+- stronger source language distinguishing cognitive complexity from workload/difficulty.
+
+### Cross-element discrimination
+
+A first Teaching Practice Lab distinction matrix now exists.
+
+Still need authoritative support where possible for these high-value pairs:
+
+- Previewing vs Reviewing,
+- Processing vs Elaborating,
+- Reviewing vs Practice,
+- Elaborating vs Examining Reasoning,
+- Examining Reasoning vs Revising Knowledge,
+- Engagement vs Cognitively Complex Tasks.
+
+The current matrix must remain labeled as **our analysis**, not an official Marzano crosswalk.
 
 ## Priority 2 — Conditions for Learning depth
 
