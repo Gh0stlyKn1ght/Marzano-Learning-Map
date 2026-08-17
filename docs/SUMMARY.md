@@ -12,7 +12,7 @@ This page is the canonical human navigation map for the repository. It remains u
 
 - [Teaching Practice Lab product vision](product/index.md)
 - [Mastery and progression system](product/mastery-system.md)
-- [Mastery engine v0.1](product/mastery-engine.md)
+- [Mastery engine specification](product/mastery-engine.md)
 - [Rank gates](product/rank-gates.md)
 - [Challenge and boss system](product/challenge-system.md)
 - [Lightweight UI design system](product/ui-design.md)
@@ -34,6 +34,13 @@ This page is the canonical human navigation map for the repository. It remains u
 - [Technology and library decisions](architecture/libraries.md)
 - [Game platform architecture](architecture/game-platform.md)
 - [Profile and mastery data model](architecture/data-model.md)
+
+## Implementation
+
+- [Implementation index](implementation/README.md)
+- [MVP learning shell](implementation/mvp-shell.md)
+- [Security baseline](implementation/security-baseline.md)
+- [Validation checklist](implementation/testing.md)
 
 ## Sources and research
 
@@ -57,7 +64,7 @@ The repository is explicitly **learning-platform first**.
 The order is:
 
 1. authoritative knowledge and framework research,
-2. deterministic mastery rules,
+2. mastery rules,
 3. challenge design,
 4. one complete reference learning path,
 5. lightweight Next.js learning shell,
