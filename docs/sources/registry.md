@@ -8,8 +8,8 @@ A source appearing here does **not** mean its text, graphics, protocols, scales,
 
 | ID | Source | Type | Authority | Use | Accessed |
 |---|---|---|---|---|---|
-| MEC-FTEM-CURRENT | [Marzano Focused Teacher Evaluation Model](https://marzanoevaluationcenter.com/evaluation/teacher-evaluation-model/) | Official web | Primary | Current model identity, 23 competencies, four domains, desired-effect/student-evidence framing, five-step observation process, current performance-scale overview | 2026-08-17 |
-| MEC-ELEMENTS | [Mastering the Marzano Elements](https://marzanoevaluationcenter.com/library/marzano-elements/) | Official web | Primary | Current domain/element organization, instructional progression, current public element names, public example of Previewing New Content focus/desired-effect logic | 2026-08-17 |
+| MEC-FTEM-CURRENT | [Marzano Focused Teacher Evaluation Model](https://marzanoevaluationcenter.com/evaluation/teacher-evaluation-model/) | Official web | Primary | Current model identity, 23 competencies, four domains, desired-effect/student-evidence framing, five-step observation process, current performance-scale overview; summarizes Standards-Based Planning as planning standards-based lessons, aligning resources, and using data to close gaps | 2026-08-17 |
+| MEC-ELEMENTS | [Mastering the Marzano Elements](https://marzanoevaluationcenter.com/library/marzano-elements/) | Official web | Primary | Current domain/element organization, instructional progression, current public element names; explicitly names Planning Standards-Based Lessons/Units and describes Planning Elements 2 and 3 functionally | 2026-08-17 |
 | MEC-LIBRARY | [Marzano Evaluation Center Library](https://marzanoevaluationcenter.com/library/) | Official library | Primary discovery | Current reports, deliberate practice, coaching, evaluation, calibration, and framework updates | 2026-08-17 |
 | MEC-DELIBERATE-PRACTICE | [Deliberate Practice in Education: How IE Observation Builds Reflective, Expert Teachers](https://marzanoevaluationcenter.com/library/deliberate-practice-in-education-ie-observation/) | Official article | Primary | Teacher self-assessment, selecting a focused high-leverage strategy, evidence, reflection, repeated practice | 2026-08-17 |
 | MEC-DELIBERATE-FEEDBACK | [Deliberate Practice and Feedback for Teacher Support](https://marzanoevaluationcenter.com/library/deliberate-practice-teacher-support/) | Official article | Primary | Definition and role of deliberate practice and targeted feedback in developing teacher expertise | 2026-08-17 |
@@ -22,6 +22,14 @@ A source appearing here does **not** mean its text, graphics, protocols, scales,
 | MEC-OBSERVER-CERT | [Focused Evaluation Models Certification/Recertification for Observers](https://marzanoevaluationcenter.com/ftem-recertification-for-observers/) | Official web | Primary contextual | Observer-training boundary, confirms current 23-competency FTEM model | 2026-08-17 |
 | MEC-FTEM-REPORT | [The Marzano Focused Teacher Evaluation Model](https://marzanoevaluationcenter.com/portfolio/the-marzano-focused-teacher-evaluation-model/) | Official report landing page | Primary discovery | Original focused-model report and historical/contextual research trail | 2026-08-17 |
 | LEGACY-2011-MAP | *Marzano Art and Science of Teaching Teacher Evaluation Model Learning Map* (2011), user-supplied reference copy | Historical source | Primary historical | Understand the earlier 60-element structure, Design Questions, and lineage only | 2026-08-17 |
+
+## Secondary discovery sources
+
+Secondary sources may help recover historical wording or identify documents to verify, but they **cannot override current first-party MEC material**.
+
+| ID | Source | Type | Authority | Use | Accessed |
+|---|---|---|---|---|---|
+| SECONDARY-DEFINED-PLANNING | [How PBL Aligns with Effective Teaching Frameworks, Part 2: Planning](https://blog.definedlearning.com/how-pbl-aligns-with-effective-teaching-frameworks-part-2-planning) | Secondary article | Secondary | Corroborates older Focused-model Planning labels: Planning Standards-Based Lessons and Units, Aligning Resources to Standards, Planning to Close the Achievement Gap Using Data. Used only as historical/title-discovery evidence pending current MEC confirmation. | 2026-08-17 |
 
 ## Learning-science sources
 
@@ -54,7 +62,7 @@ When sources disagree or when details are incomplete, use this order:
 5. historical Marzano material for lineage/context,
 6. secondary commentary only for discovery or comparison.
 
-Historical material must never silently override the current FTEM model.
+Historical or secondary material must never silently override the current FTEM model.
 
 ## Rules
 
