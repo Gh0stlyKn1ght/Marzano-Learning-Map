@@ -2,16 +2,16 @@
 
 This document is the **course-authoring map**, not a replacement for an official Marzano rubric or evaluator protocol.
 
-Teaching Practice Lab uses the current public Marzano Evaluation Center materials as the primary source for the modern framework. The current model is presented as **23 competencies across four domains**.
+Teaching Practice Lab uses current public Marzano Evaluation Center material as the primary source for the modern framework. The current model is presented as **23 competencies across four domains**.
 
 ## Domain map
 
-| Domain | Count | Course status |
+| Domain | Count | Course research status |
 |---|---:|---|
-| Standards-Based Planning | 3 | Exact full labels still being source-verified |
-| Standards-Based Instruction | 10 | Public current labels available |
-| Conditions for Learning | 7 | Public current labels available |
-| Professional Responsibilities | 3 | Public current labels available |
+| Standards-Based Planning | 3 | Public-source functional baseline complete; exact current titles for Elements 2 and 3 still unresolved |
+| Standards-Based Instruction | 10 | Public-source baseline complete |
+| Conditions for Learning | 7 | Public-source baseline complete |
+| Professional Responsibilities | 3 | Public-source baseline complete |
 
 ```mermaid
 flowchart LR
@@ -26,19 +26,54 @@ The course order is a Teaching Practice Lab design choice. It should not be desc
 
 ## Standards-Based Planning
 
-Current public Marzano Evaluation Center material explicitly names **Planning Standards-Based Lessons/Units** and describes two additional planning areas involving aligned resources/tasks and measures for monitoring student progress and addressing achievement gaps.
+Current public Marzano Evaluation Center material confirms a three-element Planning domain.
+
+### Element 1
+
+**Planning Standards-Based Lessons/Units** is explicitly named in current MEC material. The public explanation emphasizes alignment among grade-level standards, lesson/unit design, accurate content, student tasks, and cognitive complexity.
+
+### Element 2
+
+Current MEC material describes the second element as connecting aligned tasks to traditional and digital resources that match the standard and the appropriate taxonomy level.
+
+Older Focused Teacher Evaluation materials and secondary sources commonly use the title **Aligning Resources to Standard(s)**. Teaching Practice Lab treats that as a working/historical label until a current first-party MEC source explicitly confirms it.
+
+### Element 3
+
+Current MEC material describes the third element as ensuring planning includes measures that track all students' progress and help close achievement gaps.
+
+Older Focused Teacher Evaluation materials and secondary sources commonly use the title **Planning to Close the Achievement Gap Using Data**. Teaching Practice Lab treats that as a working/historical label until a current first-party MEC source explicitly confirms it.
 
 ### Course-authoring rule
 
-Do **not** invent formal names for the remaining planning competencies from memory.
+Teach the verified **functions** now. Do not silently upgrade the working/historical labels, exact focus statements, desired effects, evidence descriptors, planning-conference prompts, or developmental-scale language into current canonical protocol claims.
 
-Until verified from authoritative current material, use working topic labels only in internal planning notes:
+### Planning course model
 
-- standards-based lesson/unit planning,
-- aligned resources and tasks,
-- measures / progress monitoring.
+```text
+standard / learning target
+        ↓
+required cognitive demand
+        ↓
+aligned student task
+        ↓
+resources that support that task
+        ↓
+planned evidence of student progress
+        ↓
+data-informed response / support
+```
 
-These are descriptive placeholders, not claimed canonical labels.
+High-value Planning comparisons:
+
+- lesson/unit alignment vs resource alignment,
+- resource alignment vs engagement,
+- planning with data vs formative assessment,
+- planning with data vs feedback,
+- planning with data vs high expectations,
+- planning for complexity vs students actually engaging in complex tasks.
+
+See `docs/course/dossiers/standards-based-planning/` for the research dossiers and canonical-title status note.
 
 ## Standards-Based Instruction
 
@@ -55,31 +90,7 @@ Current public materials identify ten elements:
 9. **Helping Students Revise Their Knowledge**
 10. **Helping Students Engage in Cognitively Complex Tasks**
 
-### Course grouping
-
-For learning purposes, Teaching Practice Lab can group these into a cognitive progression:
-
-```text
-BUILD
-Identifying Critical Content
-Previewing New Content
-Processing New Content
-Elaborating
-
-DEEPEN
-Reviewing
-Practice
-Similarities and Differences
-
-ANALYZE / REVISE
-Examine Reasoning
-Revise Knowledge
-
-USE
-Cognitively Complex Tasks
-```
-
-This grouping is a Teaching Practice Lab instructional organization based on the progression described in current public Marzano materials. It should not be represented as a separate official domain structure.
+For learning purposes, Teaching Practice Lab can organize them around building knowledge, deepening/practice, analysis/revision, and knowledge utilization. This organization must remain distinguishable from official domain structure.
 
 ## Conditions for Learning
 
@@ -101,17 +112,7 @@ Current public material identifies seven elements.
 6. **Establishing and Maintaining Effective Relationships in Student-Centered Classrooms**
 7. **Communicating High Expectations for Each Student to Close the Achievement Gap**
 
-### High-value comparison pairs
-
-The course should explicitly compare:
-
-- formative assessment **vs** feedback,
-- student interaction **vs** engagement,
-- engagement **vs** visible compliance,
-- relationships **vs** permissiveness,
-- high expectations **vs** giving every learner the exact same support.
-
-The comparison explanations must be sourced and/or clearly marked as Teaching Practice Lab analysis when they go beyond official wording.
+High-value comparisons include formative assessment vs feedback, interaction vs engagement, engagement vs compliance, relationships vs permissiveness, and high expectations vs identical treatment.
 
 ## Professional Responsibilities
 
@@ -121,14 +122,32 @@ Current public material identifies:
 2. **Maintaining Expertise in Content and Pedagogy**
 3. **Promoting Teacher Leadership and Collaboration**
 
-These should not become filler pages. Each page needs a real professional problem and decision context.
+These pages should be built around real professional decisions rather than generic professionalism language.
 
-Examples of useful course questions:
+## Research coverage
 
-- What does maintaining expertise actually look like over time?
-- When does collaboration improve instruction rather than merely increase meetings?
-- What is the boundary between professional judgment and district procedure?
-- How can a teacher explain professional growth using evidence rather than generic statements?
+Teaching Practice Lab now has a public-source baseline across the complete FTEM structure:
+
+```text
+Standards-Based Planning          3 / 3 functions researched
+Standards-Based Instruction     10 / 10 elements researched
+Conditions for Learning          7 / 7 elements researched
+Professional Responsibilities    3 / 3 elements researched
+------------------------------------------------------------
+Total                            23 / 23
+```
+
+The remaining research problem is no longer basic coverage. It is **protocol depth and calibration**:
+
+- exact current focus statements,
+- exact desired effects,
+- official evidence descriptors,
+- authorized technique examples,
+- developmental-scale wording,
+- observer calibration,
+- post-observation reasoning,
+- current model-version history,
+- NJ/district implementation context.
 
 ## Five conditions for increasing teacher expertise
 
@@ -142,29 +161,11 @@ Current Marzano Evaluation Center professional-learning articles repeatedly iden
 
 These should influence the **course architecture**, but they are not additional FTEM teacher competencies.
 
-### Platform translation
+## Observation reasoning pattern
 
-| Expertise condition | Teaching Practice Lab implementation |
-|---|---|
-| Common language | precise definitions, diagrams, comparisons, vocabulary in context |
-| Focused feedback + deliberate practice | one practice at a time, scenarios, targeted corrections |
-| Observe + discuss | classroom cases, observation analysis, defense prompts |
-| Clear criteria | explicit desired effect, evidence, false positives, adaptation criteria |
-| Recognition of progress | self-checks and increasingly difficult cases rather than XP/ranks |
+The current FTEM overview describes a process centered on identifying the instructional strategy, monitoring the desired effect, examining student evidence, adapting when the desired effect is not sufficiently present, and using evidence in final/post-observation judgment.
 
-## The five-step observation reasoning pattern
-
-The current FTEM overview describes a structured observation process that, at a high level, asks observers to:
-
-1. identify the instructional element/strategy and whether it is being used appropriately,
-2. identify how the teacher monitors for the desired effect,
-3. determine the extent to which students demonstrate that effect,
-4. examine whether the teacher adapts when the desired effect is not sufficiently widespread,
-5. use student evidence to inform the final judgment and post-observation discussion.
-
-Teaching Practice Lab should learn from this reasoning pattern without cloning proprietary protocols or presenting itself as observer certification.
-
-### Course translation
+Teaching Practice Lab can translate that into a learning sequence:
 
 ```text
 What are you trying to accomplish?
@@ -184,16 +185,11 @@ What evidence do you check next?
 Can you defend the decision?
 ```
 
+The platform must not present itself as official observer certification or reproduce proprietary protocols.
+
 ## Historical 2011 map
 
 The legacy 2011 Learning Map remains useful for lineage and vocabulary history. It should live in the course as **framework history**, not as the primary current learning track.
-
-Useful historical questions:
-
-- Which older Design Questions were consolidated into current FTEM domains?
-- Which ideas survived but changed organization?
-- Why did the framework move toward fewer, higher-leverage competencies?
-- How did the emphasis on desired effect/student evidence become more explicit?
 
 Do not reproduce the full historical proprietary map in public course content.
 
@@ -201,17 +197,17 @@ Do not reproduce the full historical proprietary map in public course content.
 
 A competency is not ready to publish until the course can answer:
 
-1. canonical name and domain,
+1. canonical name and domain, or explicit unresolved-title status,
 2. source status,
 3. plain-language explanation,
-4. instructional problem,
+4. instructional/professional problem,
 5. mechanism,
-6. desired effect,
+6. desired effect or explicit source gap,
 7. evidence examples,
 8. false positives / non-examples,
 9. neighboring competencies and distinctions,
-10. adaptation triggers,
-11. plausible adaptations,
+10. adaptation/improvement triggers,
+11. plausible responses,
 12. at least one computer-science classroom example,
 13. retrieval prompts,
 14. practitioner scenario,
