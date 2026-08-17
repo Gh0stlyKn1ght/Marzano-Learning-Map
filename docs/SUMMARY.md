@@ -1,16 +1,8 @@
 # Documentation Map
 
-This page is the canonical navigation map for the repository. It remains useful when browsing directly on GitHub even if the MkDocs site is unavailable.
-
-## Project
-
-- [Project doctrine](project/doctrine.md)
-- [Roadmap](project/roadmap.md)
-- [Terminology](project/terminology.md)
+This page is the canonical navigation map for the repository.
 
 ## Course design
-
-These documents are the current priority. They define what must be known and verified before the application is expanded.
 
 - [Full course blueprint](course/course-blueprint.md)
 - [Learning design and evidence base](course/learning-design.md)
@@ -50,18 +42,28 @@ These documents are the current priority. They define what must be known and ver
 - [Organizing Students to Interact with Content](course/dossiers/conditions-for-learning/interact-with-content.md)
 - [Using Engagement Strategies](course/dossiers/conditions-for-learning/engagement-strategies.md)
 - [Establishing and Acknowledging Adherence to Rules and Procedures](course/dossiers/conditions-for-learning/rules-and-procedures.md)
-- [Establishing and Maintaining Effective Relationships in Student-Centered Classrooms](course/dossiers/conditions-for-learning/relationships.md)
-- [Communicating High Expectations for Each Student to Close the Achievement Gap](course/dossiers/conditions-for-learning/high-expectations.md)
+- [Establishing and Maintaining Effective Relationships](course/dossiers/conditions-for-learning/relationships.md)
+- [Communicating High Expectations](course/dossiers/conditions-for-learning/high-expectations.md)
 
 ### Professional Responsibilities research dossiers
 
 - [Dossier index](course/dossiers/professional-responsibilities/index.md)
 - [Distinction matrix](course/dossiers/professional-responsibilities/distinction-matrix.md)
-- [Adhering to School and District Policies and Procedures](course/dossiers/professional-responsibilities/policies-and-procedures.md)
-- [Maintaining Expertise in Content and Pedagogy](course/dossiers/professional-responsibilities/expertise-content-pedagogy.md)
-- [Promoting Teacher Leadership and Collaboration](course/dossiers/professional-responsibilities/teacher-leadership-collaboration.md)
+- [Policies and Procedures](course/dossiers/professional-responsibilities/policies-and-procedures.md)
+- [Content and Pedagogy Expertise](course/dossiers/professional-responsibilities/expertise-content-pedagogy.md)
+- [Teacher Leadership and Collaboration](course/dossiers/professional-responsibilities/teacher-leadership-collaboration.md)
 
-### Course/product references
+### Observation and Defense research
+
+- [Research index](course/observation-defense/index.md)
+- [Observation reasoning model](course/observation-defense/observation-reasoning.md)
+- [Evidence and calibration](course/observation-defense/evidence-and-calibration.md)
+- [Post-observation defense](course/observation-defense/post-observation-defense.md)
+- [Self-assessment and deliberate practice](course/observation-defense/self-assessment-deliberate-practice.md)
+- [Defense question bank](course/observation-defense/defense-question-bank.md)
+- [Observer-certification and copyright boundary](course/observation-defense/boundary.md)
+
+## Course/product references
 
 - [Teaching Practice Lab product vision](product/index.md)
 - [Course exercise system](product/course-exercises.md)
@@ -78,11 +80,13 @@ These documents are the current priority. They define what must be known and ver
 - [Source policy](sources/index.md)
 - [Source registry](sources/registry.md)
 
-The source registry distinguishes current official Marzano framework sources, professional-learning sources, peer-reviewed learning science, technical documentation, historical material, and secondary discovery sources that are never allowed to override current first-party MEC material.
+## Project
+
+- [Project doctrine](project/doctrine.md)
+- [Roadmap](project/roadmap.md)
+- [Terminology](project/terminology.md)
 
 ## Architecture
-
-Architecture is intentionally secondary to course preparation at this stage.
 
 - [Architecture overview](architecture/index.md)
 - [Technology and library decisions](architecture/libraries.md)
@@ -91,22 +95,11 @@ Architecture is intentionally secondary to course preparation at this stage.
 ## Implementation
 
 - [Implementation index](implementation/README.md)
-- [MVP learning shell](implementation/mvp-shell.md)
 - [Local CI and release gates](implementation/local-ci.md)
-- [Security baseline](implementation/security-baseline.md)
 - [Validation checklist](implementation/testing.md)
-
-## Agent operations
-
-- [Root agent instructions](../AGENTS.md)
-- [Source research skill](../.agents/skills/source-research/SKILL.md)
-- [Framework analysis skill](../.agents/skills/framework-analysis/SKILL.md)
-- [Documentation authoring skill](../.agents/skills/docs-authoring/SKILL.md)
 
 ## Current doctrine
 
-The full 23-competency FTEM structure now has a public-source research baseline. Remaining work is deeper protocol verification, observation/defense research, learning-science enrichment, version history, and NJ implementation context.
+The full 23-competency FTEM structure and the public observation/defense reasoning layer now have a research baseline. Remaining work is deeper protocol verification where legally accessible, learning-science enrichment, version history, and New Jersey/district implementation context.
 
-Teaching Practice Lab is a **publicly accessible, privately owned learning platform**. The core course does not require login, XP, ranks, badges, streaks, a mastery database, saved progress, or student records.
-
-Copyright © 2026 Gh0stlyKn1ght. All Rights Reserved. See the repository `LICENSE` file.
+Teaching Practice Lab is publicly accessible and privately owned. Copyright © 2026 Gh0stlyKn1ght. All Rights Reserved.
