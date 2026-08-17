@@ -1,10 +1,11 @@
 import Link from "next/link";
 
-const domains = [
-  ["Standards-Based Planning", 24],
-  ["Standards-Based Instruction", 12],
-  ["Conditions for Learning", 18],
-  ["Professional Responsibilities", 8],
+const courseSections = [
+  ["00", "Foundations", "Learn the reasoning loop behind the framework before studying individual competencies."],
+  ["01", "Standards-Based Planning", "Plan targets, tasks, resources, and evidence around the intended learning."],
+  ["02", "Standards-Based Instruction", "Study the instructional practices used to build, deepen, and apply knowledge."],
+  ["03", "Conditions for Learning", "Study feedback, interaction, engagement, relationships, expectations, and classroom conditions."],
+  ["04", "Professional Responsibilities", "Connect instructional expertise to professional practice, collaboration, and responsibility."],
 ] as const;
 
 export default function HomePage() {
@@ -13,66 +14,43 @@ export default function HomePage() {
       <header className="topbar">
         <div className="brand">Teaching Practice Lab</div>
         <nav className="nav" aria-label="Primary navigation">
-          <Link href="/learn/foundations">Learn</Link>
+          <Link href="/learn/foundations">Course</Link>
           <Link href="/challenge">Practice</Link>
-          <Link href="/mastery">Mastery</Link>
+          <a href="https://github.com/Gh0stlyKn1ght/Marzano-Learning-Map">GitHub</a>
         </nav>
       </header>
 
       <section className="hero">
         <article className="card">
-          <div className="eyebrow">Current mission</div>
-          <h1>Think like the framework.</h1>
+          <div className="eyebrow">Open course · no account required</div>
+          <h1>Learn the framework deeply enough to explain your decisions.</h1>
           <p className="lead">
-            Learn the reasoning loop first: identify the instructional intent, separate activity from evidence, diagnose the desired effect, adapt, and defend the decision.
+            Read concise lessons, compare similar practices, analyze classroom scenarios, test your reasoning, and practice defending instructional decisions. Everything is open source and usable without profiles, XP, ranks, or student data.
           </p>
-          <Link className="button" href="/learn/foundations">Continue foundations</Link>
+          <Link className="button" href="/learn/foundations">Start with Foundations</Link>
         </article>
 
         <aside className="card">
-          <div className="rank">
-            <div>
-              <div className="eyebrow">Overall rank</div>
-              <strong>Novice</strong>
-            </div>
-            <span className="badge">MVP profile</span>
-          </div>
-          <div className="metric">0 XP</div>
-          <div className="subtle">Next rank: Apprentice I</div>
-          <div className="progress" aria-label="Rank progress"><span style={{ width: "3%" }} /></div>
+          <div className="eyebrow">Course principle</div>
+          <h2>Reasoning over completion.</h2>
+          <p className="subtle">There is nothing to grind and nothing to unlock. Use the course in order, jump directly to a concept, repeat an exercise, or inspect the source on GitHub.</p>
         </aside>
       </section>
 
-      <section className="grid">
-        <article className="card">
-          <div className="eyebrow">Framework mastery</div>
-          <h2>Domain confidence</h2>
-          <div className="stack">
-            {domains.map(([name, value]) => (
-              <div key={name}>
-                <div className="row"><span>{name}</span><span>{value}%</span></div>
-                <div className="progress"><span style={{ width: `${value}%` }} /></div>
+      <section className="card">
+        <div className="eyebrow">Course map</div>
+        <h2>From foundations to full-framework reasoning</h2>
+        <div className="stack">
+          {courseSections.map(([number, title, description]) => (
+            <div className="action" key={title}>
+              <div>
+                <strong>{number} · {title}</strong>
+                <span className="subtle">{description}</span>
               </div>
-            ))}
-          </div>
-        </article>
-
-        <article className="card">
-          <div className="eyebrow">Today</div>
-          <h2>Training queue</h2>
-          <div className="action">
-            <div><strong>Foundations</strong><span className="subtle">Learn the evidence loop</span></div>
-            <Link className="button secondary" href="/learn/foundations">Open</Link>
-          </div>
-          <div className="action">
-            <div><strong>Evidence vs Activity</strong><span className="subtle">3 playable challenges</span></div>
-            <Link className="button secondary" href="/challenge">Train</Link>
-          </div>
-          <div className="action">
-            <div><strong>Mastery Profile</strong><span className="subtle">Nine dimensions</span></div>
-            <Link className="button secondary" href="/mastery">Inspect</Link>
-          </div>
-        </article>
+              {number === "00" ? <Link className="button secondary" href="/learn/foundations">Open</Link> : <span className="badge">in development</span>}
+            </div>
+          ))}
+        </div>
       </section>
     </main>
   );
