@@ -1,12 +1,14 @@
 # Product Vision: Teaching Practice Lab
 
-Teaching Practice Lab is an **open-source instructional practice course**. Its first framework is the Marzano Focused Teacher Evaluation Model (FTEM), with historical context from the earlier Marzano Learning Map.
+Teaching Practice Lab is a **publicly accessible instructional practice course owned by Gh0stlyKn1ght**. Its first framework is the Marzano Focused Teacher Evaluation Model (FTEM), with historical context from the earlier Marzano Learning Map.
+
+The website is intended to be freely reachable on the public web, but the project's original source code, course content, exercises, diagrams, and design are proprietary unless explicitly stated otherwise.
 
 The goal is not certification, score tracking, report generation, or gamification. The goal is to help a teacher understand the framework deeply enough to recognize, distinguish, apply, diagnose, adapt, and defend instructional decisions when questioned.
 
 ## Product thesis
 
-A teacher does not demonstrate understanding by naming an element. Useful fluency means being able to answer:
+Useful fluency means being able to answer:
 
 - What instructional problem is being solved?
 - Why is this practice appropriate here?
@@ -30,8 +32,6 @@ graph LR
     G --> H[Transfer]
 ```
 
-The loop describes how the course is designed. It is not a profile or progress-tracking system.
-
 ## Course modes
 
 ### Learn
@@ -40,7 +40,7 @@ Compact lessons, framework history, diagrams, examples, non-examples, terminolog
 
 ### Practice
 
-Open retrieval prompts, comparison exercises, scenario analysis, evidence selection, error finding, and lesson design. Exercises can be repeated freely and require no account.
+Repeatable retrieval prompts, comparison exercises, scenario analysis, evidence selection, error finding, and lesson design. Exercises require no account.
 
 ### Defend
 
@@ -50,9 +50,9 @@ Written or spoken prompts modeled on questions from a principal, instructional c
 
 Interactive diagrams and selective Three.js experiences may visualize instructional relationships, evidence, or scenarios when animation materially improves understanding.
 
-## Open-course rule
+## Public-access rule
 
-Core learning must remain available without:
+Core learning should remain usable without:
 
 - login,
 - learner profile,
@@ -61,16 +61,19 @@ Core learning must remain available without:
 - badge,
 - streak,
 - saved progress,
-- paywall,
 - student information.
 
-## Two complementary sites
+Public access does not mean open source. See the repository `LICENSE` file for ownership terms.
 
-**MkDocs** is the reference manual: research notes, framework documentation, sources, diagrams, architecture, and contributor guidance.
+## Presentation layers
 
-**Next.js** is the learning experience: readable course pages, interactive exercises, comparison tools, scenario practice, and optional visualizations.
+**MkDocs** is the research and reference manual.
 
-Both are backed by repository content and should remain useful when browsed directly on GitHub.
+**Next.js** is the primary public learning experience.
+
+**Vercel** is the intended production host.
+
+Production changes are validated with local release gates before intentional promotion.
 
 ## Non-goals
 
@@ -82,7 +85,9 @@ The project is not:
 - a gradebook,
 - an IEP/504 repository,
 - a replacement for district observation software,
-- a proprietary clone of Marzano materials,
+- an unauthorized reproduction of proprietary Marzano materials,
 - a visual-effects demo.
 
-The project should teach from documented sources using original explanations, examples, exercises, and diagrams while respecting copyright and attribution boundaries.
+Teaching Practice Lab should teach from documented sources using original explanations, examples, exercises, and diagrams while respecting third-party copyrights and trademarks.
+
+Copyright © 2026 Gh0stlyKn1ght. All Rights Reserved.
