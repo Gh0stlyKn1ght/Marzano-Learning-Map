@@ -64,9 +64,13 @@ nav:
   - Product:
       - Vision: product/index.md
       - Mastery System: product/mastery-system.md
+      - Mastery Engine v0.1: product/mastery-engine.md
+      - Rank Gates: product/rank-gates.md
       - Challenge System: product/challenge-system.md
       - UI Design: product/ui-design.md
       - Build Roadmap: product/build-roadmap.md
+  - Learning Paths:
+      - Foundations: paths/foundations/index.md
   - Frameworks:
       - Overview: frameworks/index.md
       - FTEM: frameworks/ftem/index.md
