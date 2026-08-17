@@ -17,6 +17,15 @@ These documents are the current priority. They define what must be known and ver
 - [FTEM course-authoring framework map](course/framework-map.md)
 - [Research backlog](course/research-backlog.md)
 
+### Standards-Based Planning research dossiers
+
+- [Dossier index](course/dossiers/standards-based-planning/index.md)
+- [Planning Standards-Based Lessons/Units](course/dossiers/standards-based-planning/planning-standards-based-lessons-units.md)
+- [Element 2 - Aligning Resources](course/dossiers/standards-based-planning/aligning-resources.md)
+- [Element 3 - Planning with Data to Close Gaps](course/dossiers/standards-based-planning/planning-with-data-to-close-gaps.md)
+- [Distinction matrix](course/dossiers/standards-based-planning/distinction-matrix.md)
+- [Canonical title status](course/dossiers/standards-based-planning/canonical-title-status.md)
+
 ### Standards-Based Instruction research dossiers
 
 - [Dossier index](course/dossiers/standards-based-instruction/index.md)
@@ -69,13 +78,7 @@ These documents are the current priority. They define what must be known and ver
 - [Source policy](sources/index.md)
 - [Source registry](sources/registry.md)
 
-The source registry distinguishes:
-
-- current official Marzano framework sources,
-- professional-learning/deliberate-practice sources,
-- peer-reviewed learning-science sources,
-- technical documentation,
-- historical material.
+The source registry distinguishes current official Marzano framework sources, professional-learning sources, peer-reviewed learning science, technical documentation, historical material, and secondary discovery sources that are never allowed to override current first-party MEC material.
 
 ## Architecture
 
@@ -102,14 +105,7 @@ Architecture is intentionally secondary to course preparation at this stage.
 
 ## Current doctrine
 
-The current work order is:
-
-1. establish authoritative framework sources,
-2. resolve current labels/version questions,
-3. prepare the complete learning architecture,
-4. research each competency deeply,
-5. create original explanations, distinctions, scenarios, and defense prompts,
-6. only then expand the Next.js experience and selective visualizations.
+The full 23-competency FTEM structure now has a public-source research baseline. Remaining work is deeper protocol verification, observation/defense research, learning-science enrichment, version history, and NJ implementation context.
 
 Teaching Practice Lab is a **publicly accessible, privately owned learning platform**. The core course does not require login, XP, ranks, badges, streaks, a mastery database, saved progress, or student records.
 
