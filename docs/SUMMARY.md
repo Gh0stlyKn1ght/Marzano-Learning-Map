@@ -8,6 +8,14 @@ This page is the canonical human navigation map for the repository. It remains u
 - [Roadmap](project/roadmap.md)
 - [Terminology](project/terminology.md)
 
+## Product
+
+- [Teaching Practice Lab product vision](product/index.md)
+- [Mastery and progression system](product/mastery-system.md)
+- [Challenge and boss system](product/challenge-system.md)
+- [Lightweight UI design system](product/ui-design.md)
+- [Game platform build roadmap](product/build-roadmap.md)
+
 ## Frameworks
 
 - [Framework overview](frameworks/index.md)
@@ -18,6 +26,8 @@ This page is the canonical human navigation map for the repository. It remains u
 
 - [Architecture overview](architecture/index.md)
 - [Technology and library decisions](architecture/libraries.md)
+- [Game platform architecture](architecture/game-platform.md)
+- [Profile and mastery data model](architecture/data-model.md)
 
 ## Sources and research
 
@@ -34,17 +44,21 @@ These files live outside the MkDocs `docs/` tree but are directly navigable on G
 - [Documentation authoring skill](../.agents/skills/docs-authoring/SKILL.md)
 - [Evidence/report design skill](../.agents/skills/evidence-reporting/SKILL.md)
 
-## Next documentation sets
+## Current implementation doctrine
 
-The roadmap intentionally reserves the next authoring passes for:
+The repository is now explicitly **learning-platform first**.
 
-- expertise and deliberate-practice system,
-- evidence chain and practice-record schema,
-- observation and reflection workflows,
-- privacy rules for classroom evidence,
-- printable report specifications,
-- structured content/data model,
-- future Next.js application architecture,
-- architecture decision records (ADRs).
+The order is:
 
-These should be implemented only as we research and design them, rather than creating empty placeholder pages that look complete.
+1. authoritative knowledge and framework research,
+2. mastery rules,
+3. challenge design,
+4. one complete reference learning path,
+5. lightweight Next.js learning shell,
+6. persistence and profiles,
+7. spaced review,
+8. selective Three.js game mechanics,
+9. Socratic defense coach,
+10. expansion to the complete framework.
+
+Three.js is a presentation layer. The learning, assessment, mastery, and progression engines must remain independently testable.
