@@ -85,6 +85,12 @@ nav:
           - Rules and Procedures: course/dossiers/conditions-for-learning/rules-and-procedures.md
           - Relationships: course/dossiers/conditions-for-learning/relationships.md
           - High Expectations: course/dossiers/conditions-for-learning/high-expectations.md
+      - Professional Responsibilities Dossiers:
+          - Overview: course/dossiers/professional-responsibilities/index.md
+          - Distinction Matrix: course/dossiers/professional-responsibilities/distinction-matrix.md
+          - Policies and Procedures: course/dossiers/professional-responsibilities/policies-and-procedures.md
+          - Content and Pedagogy Expertise: course/dossiers/professional-responsibilities/expertise-content-pedagogy.md
+          - Teacher Leadership and Collaboration: course/dossiers/professional-responsibilities/teacher-leadership-collaboration.md
   - Project:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
