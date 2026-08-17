@@ -1,0 +1,78 @@
+:root {
+  color-scheme: dark;
+  --bg: #090a0c;
+  --panel: #141619;
+  --panel-2: #1a1d21;
+  --text: #f3f4f6;
+  --muted: #a9afba;
+  --line: #2a2e34;
+  --fill: #c3c9d2;
+  --soft: #6e7580;
+  --radius: 24px;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255,255,255,.045), transparent 24rem),
+    var(--bg);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; }
+
+.shell { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 64px; }
+.topbar { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:34px; }
+.brand { font-size:.86rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+.nav { display:flex; gap:8px; flex-wrap:wrap; }
+.nav a { border:1px solid var(--line); border-radius:999px; padding:8px 12px; color:var(--muted); font-size:.82rem; }
+.nav a:hover { color:var(--text); border-color:var(--soft); }
+
+.hero { display:grid; grid-template-columns:1.4fr .8fr; gap:18px; margin-bottom:18px; }
+.card { background:linear-gradient(180deg, rgba(255,255,255,.035), transparent 35%), var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:26px; box-shadow:0 18px 55px rgba(0,0,0,.22); }
+.eyebrow { color:var(--muted); font-size:.8rem; text-transform:uppercase; letter-spacing:.12em; }
+h1,h2,h3,p { margin-top:0; }
+h1 { font-size:clamp(2.2rem, 6vw, 4.8rem); line-height:.98; letter-spacing:-.06em; margin-bottom:18px; }
+h2 { font-size:1.15rem; letter-spacing:-.02em; }
+.lead { color:var(--muted); max-width:62ch; line-height:1.65; }
+.metric { font-size:2rem; margin:8px 0 4px; }
+.subtle { color:var(--muted); font-size:.86rem; }
+
+.grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:18px; }
+.stack { display:grid; gap:16px; }
+.row { display:flex; justify-content:space-between; gap:12px; align-items:end; }
+.progress { height:10px; background:#24282e; border-radius:999px; overflow:hidden; margin-top:8px; }
+.progress > span { display:block; height:100%; background:linear-gradient(90deg, var(--fill), #89919d); border-radius:inherit; }
+
+.action { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 0; border-top:1px solid var(--line); }
+.action:first-of-type { border-top:0; }
+.action strong { display:block; margin-bottom:5px; }
+.button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:0 15px; border:1px solid #777f8b; border-radius:12px; background:#e9edf2; color:#101216; font-weight:700; }
+.button.secondary { background:transparent; color:var(--text); border-color:var(--line); }
+.button:hover { transform:translateY(-1px); }
+
+.rank { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; }
+.rank strong { font-size:1.35rem; }
+.badge { border:1px solid var(--line); border-radius:999px; padding:7px 10px; color:var(--muted); font-size:.76rem; }
+
+.question { font-size:1.25rem; line-height:1.5; margin:18px 0; }
+.choices { display:grid; gap:10px; }
+.choice { width:100%; text-align:left; padding:14px 16px; border-radius:14px; border:1px solid var(--line); background:var(--panel-2); color:var(--text); cursor:pointer; }
+.choice:hover { border-color:var(--soft); }
+.choice[data-state="correct"] { border-color:#9da7b5; background:#252a31; }
+.choice[data-state="wrong"] { opacity:.55; }
+.feedback { margin-top:16px; padding:16px; border:1px solid var(--line); border-radius:14px; color:var(--muted); line-height:1.6; }
+.site-footer { display:flex; justify-content:space-between; gap:18px; margin-top:30px; padding:24px 2px 0; border-top:1px solid var(--line); color:var(--soft); font-size:.74rem; }
+
+@media (max-width: 760px) {
+  .hero,.grid { grid-template-columns:1fr; }
+  .topbar { align-items:flex-start; flex-direction:column; }
+  .card { padding:20px; border-radius:20px; }
+  .action { align-items:flex-start; flex-direction:column; }
+  .action .button { width:100%; }
+  .site-footer { flex-direction:column; }
+}

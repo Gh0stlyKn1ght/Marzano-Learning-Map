@@ -1,12 +1,14 @@
 # Product Vision: Teaching Practice Lab
 
-Teaching Practice Lab is a **game-based instructional mastery platform**. Its first framework is the Marzano Focused Teacher Evaluation Model (FTEM), but the product architecture should allow additional instructional frameworks later.
+Teaching Practice Lab is a **publicly accessible instructional practice course owned by Gh0stlyKn1ght**. Its first framework is the Marzano Focused Teacher Evaluation Model (FTEM), with historical context from the earlier Marzano Learning Map.
 
-The goal is not course completion, report generation, or rubric memorization. The goal is to develop enough fluency that a learner can recognize, distinguish, apply, diagnose, adapt, defend, and transfer instructional practices under questioning.
+The website is intended to be freely reachable on the public web, but the project's original source code, course content, exercises, diagrams, and design are proprietary unless explicitly stated otherwise.
+
+The goal is not certification, score tracking, report generation, or gamification. The goal is to help a teacher understand the framework deeply enough to recognize, distinguish, apply, diagnose, adapt, and defend instructional decisions when questioned.
 
 ## Product thesis
 
-A teacher does not demonstrate mastery by naming an element. Mastery means being able to answer:
+Useful fluency means being able to answer:
 
 - What instructional problem is being solved?
 - Why is this practice appropriate here?
@@ -17,7 +19,7 @@ A teacher does not demonstrate mastery by naming an element. Mastery means being
 - How is this different from a nearby or commonly confused practice?
 - Can the reasoning be defended without consulting notes?
 
-## Core loop
+## Learning loop
 
 ```mermaid
 graph LR
@@ -28,46 +30,64 @@ graph LR
     E --> F[Adapt]
     F --> G[Defend]
     G --> H[Transfer]
-    H --> I[Teach]
-    I --> A
 ```
 
-## Product modes
+## Course modes
 
 ### Learn
 
-Compact competency lessons, framework history, diagrams, examples, non-examples, and vocabulary.
+Compact lessons, framework history, diagrams, examples, non-examples, terminology, and source notes.
 
 ### Practice
 
-Retrieval prompts, comparison challenges, scenario analysis, evidence selection, error finding, and lesson design.
+Repeatable retrieval prompts, comparison exercises, scenario analysis, evidence selection, error finding, and lesson design. Exercises require no account.
 
 ### Defend
 
-Socratic oral or written questioning in several modes: principal, coach, skeptic, framework expert, and rapid fire.
+Written or spoken prompts modeled on questions from a principal, instructional coach, skeptic, or framework expert.
 
-### Field Lab
+### Explore
 
-A lightweight deliberate-practice mission for a real lesson. No student names or unnecessary student records are required.
+Interactive diagrams and selective Three.js experiences may visualize instructional relationships, evidence, or scenarios when animation materially improves understanding.
 
-### Mastery
+## Public-access rule
 
-A profile showing rank, XP, competency mastery, confidence, review queue, badges, boss clears, and weak areas.
+Core learning should remain usable without:
 
-## Game rule
+- login,
+- learner profile,
+- XP,
+- rank,
+- badge,
+- streak,
+- saved progress,
+- student information.
 
-**Activity does not equal mastery.** Reading content should not award meaningful XP. Progress is earned by demonstrating knowledge and reasoning.
+Public access does not mean open source. See the repository `LICENSE` file for ownership terms.
+
+## Presentation layers
+
+**MkDocs** is the research and reference manual.
+
+**Next.js** is the primary public learning experience.
+
+**Vercel** is the intended production host.
+
+Production changes are validated with local release gates before intentional promotion.
 
 ## Non-goals
 
-The first product is not:
+The project is not:
 
 - an official teacher evaluation system,
-- an evaluator certification product,
+- evaluator certification,
 - a student information system,
 - a gradebook,
 - an IEP/504 repository,
 - a replacement for district observation software,
-- a visual effects demo.
+- an unauthorized reproduction of proprietary Marzano materials,
+- a visual-effects demo.
 
-Three.js, animation, rewards, and progression exist to support learning. They do not own the learning logic.
+Teaching Practice Lab should teach from documented sources using original explanations, examples, exercises, and diagrams while respecting third-party copyrights and trademarks.
+
+Copyright © 2026 Gh0stlyKn1ght. All Rights Reserved.

@@ -1,5 +1,5 @@
 site_name: Teaching Practice Lab
-site_description: Game-based instructional mastery platform for learning, practicing, defending, and transferring teaching frameworks.
+site_description: Public instructional learning platform for understanding, practicing, and defending instructional frameworks.
 repo_url: https://github.com/Gh0stlyKn1ght/Marzano-Learning-Map
 repo_name: Gh0stlyKn1ght/Marzano-Learning-Map
 edit_uri: edit/main/docs/
@@ -57,29 +57,76 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Documentation Map: SUMMARY.md
+  - Course Research:
+      - Full Course Blueprint: course/course-blueprint.md
+      - Learning Design: course/learning-design.md
+      - FTEM Framework Map: course/framework-map.md
+      - Research Backlog: course/research-backlog.md
+      - Standards-Based Planning:
+          - Overview: course/dossiers/standards-based-planning/index.md
+          - Planning Lessons/Units: course/dossiers/standards-based-planning/planning-standards-based-lessons-units.md
+          - Aligning Resources: course/dossiers/standards-based-planning/aligning-resources.md
+          - Planning with Data: course/dossiers/standards-based-planning/planning-with-data-to-close-gaps.md
+          - Distinction Matrix: course/dossiers/standards-based-planning/distinction-matrix.md
+          - Canonical Title Status: course/dossiers/standards-based-planning/canonical-title-status.md
+      - Standards-Based Instruction:
+          - Overview: course/dossiers/standards-based-instruction/index.md
+          - Distinction Matrix: course/dossiers/standards-based-instruction/distinction-matrix.md
+          - Identifying Critical Content: course/dossiers/standards-based-instruction/identifying-critical-content.md
+          - Previewing New Content: course/dossiers/standards-based-instruction/previewing-new-content.md
+          - Processing New Content: course/dossiers/standards-based-instruction/processing-new-content.md
+          - Questions to Elaborate: course/dossiers/standards-based-instruction/elaborating-with-questions.md
+          - Reviewing Content: course/dossiers/standards-based-instruction/reviewing-content.md
+          - Practice Skills/Strategies/Processes: course/dossiers/standards-based-instruction/practice-skills-strategies-processes.md
+          - Similarities and Differences: course/dossiers/standards-based-instruction/similarities-and-differences.md
+          - Examine Reasoning: course/dossiers/standards-based-instruction/examine-reasoning.md
+          - Revise Knowledge: course/dossiers/standards-based-instruction/revise-knowledge.md
+          - Cognitively Complex Tasks: course/dossiers/standards-based-instruction/cognitively-complex-tasks.md
+      - Conditions for Learning:
+          - Overview: course/dossiers/conditions-for-learning/index.md
+          - Distinction Matrix: course/dossiers/conditions-for-learning/distinction-matrix.md
+          - Formative Assessment: course/dossiers/conditions-for-learning/formative-assessment.md
+          - Feedback and Progress: course/dossiers/conditions-for-learning/feedback-and-progress.md
+          - Interact with Content: course/dossiers/conditions-for-learning/interact-with-content.md
+          - Engagement Strategies: course/dossiers/conditions-for-learning/engagement-strategies.md
+          - Rules and Procedures: course/dossiers/conditions-for-learning/rules-and-procedures.md
+          - Relationships: course/dossiers/conditions-for-learning/relationships.md
+          - High Expectations: course/dossiers/conditions-for-learning/high-expectations.md
+      - Professional Responsibilities:
+          - Overview: course/dossiers/professional-responsibilities/index.md
+          - Distinction Matrix: course/dossiers/professional-responsibilities/distinction-matrix.md
+          - Policies and Procedures: course/dossiers/professional-responsibilities/policies-and-procedures.md
+          - Content and Pedagogy Expertise: course/dossiers/professional-responsibilities/expertise-content-pedagogy.md
+          - Teacher Leadership and Collaboration: course/dossiers/professional-responsibilities/teacher-leadership-collaboration.md
+      - Observation and Defense:
+          - Overview: course/observation-defense/index.md
+          - Observation Reasoning: course/observation-defense/observation-reasoning.md
+          - Evidence and Calibration: course/observation-defense/evidence-and-calibration.md
+          - Post-Observation Defense: course/observation-defense/post-observation-defense.md
+          - Self-Assessment and Deliberate Practice: course/observation-defense/self-assessment-deliberate-practice.md
+          - Defense Question Bank: course/observation-defense/defense-question-bank.md
+          - Certification Boundary: course/observation-defense/boundary.md
   - Project:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
       - Terminology: project/terminology.md
-  - Product:
+  - Course:
       - Vision: product/index.md
-      - Mastery System: product/mastery-system.md
-      - Mastery Engine v0.1: product/mastery-engine.md
-      - Rank Gates: product/rank-gates.md
-      - Challenge System: product/challenge-system.md
+      - Exercise System: product/course-exercises.md
       - UI Design: product/ui-design.md
-      - Build Roadmap: product/build-roadmap.md
-  - Learning Paths:
       - Foundations: paths/foundations/index.md
   - Frameworks:
       - Overview: frameworks/index.md
       - FTEM: frameworks/ftem/index.md
       - Legacy 2011: frameworks/legacy-2011/index.md
-  - Architecture:
-      - Overview: architecture/index.md
-      - Libraries: architecture/libraries.md
-      - Game Platform: architecture/game-platform.md
-      - Data Model: architecture/data-model.md
   - Sources:
       - Source Policy: sources/index.md
       - Registry: sources/registry.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Libraries: architecture/libraries.md
+      - Public Platform: architecture/public-platform.md
+  - Implementation:
+      - Overview: implementation/README.md
+      - Local CI: implementation/local-ci.md
+      - Validation: implementation/testing.md

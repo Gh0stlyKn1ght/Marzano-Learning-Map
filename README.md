@@ -1,83 +1,129 @@
 # Teaching Practice Lab
 
-A **game-based instructional mastery platform** for learning, practicing, defending, and transferring teaching frameworks. The first framework is the **Marzano Focused Teacher Evaluation Model (FTEM)**.
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-active%20development-111111?style=for-the-badge">
+  <img alt="Production" src="https://img.shields.io/badge/production-Vercel-000000?style=for-the-badge&logo=vercel">
+  <img alt="CI" src="https://img.shields.io/badge/CI-local%20release%20gates-2f2f2f?style=for-the-badge">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/license-proprietary-6b6b6b?style=for-the-badge">
+</p>
 
-> This repository is an independent learning and professional-practice project. It is not affiliated with, endorsed by, or a replacement for the Marzano Evaluation Center, Instructional Empowerment, iObservation/IE Observation, a district evaluation instrument, or official evaluator training.
+**Teaching Practice Lab** is a publicly accessible, privately owned instructional learning platform created by **[@Gh0stlyKn1ght](https://github.com/Gh0stlyKn1ght)**.
 
-## Product goal
+Its first learning track focuses on the **Marzano Focused Teacher Evaluation Model (FTEM)** and the historical Marzano Learning Map. The platform is designed to move beyond passive rubric reading by combining concise lessons, source-backed explanations, diagrams, scenarios, comparison exercises, evidence analysis, and defense-style questioning.
 
-The goal is not to memorize a rubric or complete a course. A learner should become able to:
+> Teaching Practice Lab is an independent educational project. It is not affiliated with, endorsed by, or a replacement for the Marzano Evaluation Center, Instructional Empowerment, iObservation/IE Observation, any district evaluation instrument, or official evaluator training.
 
-**recall → recognize → distinguish → apply → diagnose → adapt → defend → transfer → teach**
+## What this app is
 
-instructional practices under realistic questioning.
+The goal is to help a teacher understand instructional practice deeply enough to answer questions such as:
 
-The eventual application will combine a lightweight Next.js interface, persistent learner profiles, mastery tracking, challenge paths, boss assessments, spaced review, Socratic defense training, and selective Three.js interactions.
+- What instructional problem is being solved?
+- Why is this strategy appropriate here?
+- What student effect should occur?
+- What evidence would demonstrate that effect?
+- What would count as a false positive?
+- What should change if the desired effect does not occur?
+- How is this different from a nearby or commonly confused practice?
+- Can the decision be defended without consulting notes?
 
-## Start here
+The learning loop is:
 
-- **[Documentation map](docs/SUMMARY.md)** — browse the project directly in GitHub.
-- **[Product vision](docs/product/index.md)** — what the learning platform is becoming.
-- **[Mastery system](docs/product/mastery-system.md)** — ranks, XP, confidence, and mastery dimensions.
-- **[Challenge system](docs/product/challenge-system.md)** — scenarios, VS mode, defenses, and bosses.
-- **[UI design](docs/product/ui-design.md)** — lightweight dark interface and Three.js boundaries.
-- **[Build roadmap](docs/product/build-roadmap.md)** — implementation order.
-- **[FTEM framework](docs/frameworks/ftem/index.md)** — current framework research target.
-- **[Sources](docs/sources/index.md)** — provenance and source hierarchy.
-- **[Agent guide](AGENTS.md)** — instructions for Codex and other coding agents.
-
-## Current phase
-
-**Knowledge system + mastery specification.**
-
-The repository deliberately starts as Markdown rather than as an application. The goal is to create a trustworthy system of record that is:
-
-1. readable directly on GitHub,
-2. renderable through MkDocs Material,
-3. diagram-friendly,
-4. usable by coding/research agents,
-5. source-aware and copyright-conscious,
-6. ready to become the content/data layer for the Next.js learning platform.
-
-## Core mastery loop
-
-```mermaid
-graph LR
-    A[Learn] --> B[Recall]
-    B --> C[Distinguish]
-    C --> D[Apply]
-    D --> E[Diagnose]
-    E --> F[Adapt]
-    F --> G[Defend]
-    G --> H[Transfer]
-    H --> I[Teach]
-    I --> A
+```text
+learn → recall → distinguish → apply → diagnose → adapt → defend → transfer
 ```
 
-## Lightweight by design
+There are **no required learner accounts, XP systems, ranks, badges, streaks, or student records** in the core course.
 
-Most screens should be ordinary semantic HTML/CSS/React: profile, lessons, dashboard, progress, challenges, results, and settings.
+## Architecture
 
-Three.js is reserved for interactions where motion or spatial representation improves learning, such as competency maps, evidence connections, concept comparisons, node unlocks, selected scenario environments, boss sequences, and rank progression.
+```mermaid
+flowchart TD
+    S[Authoritative Sources] --> D[Research + Documentation]
+    D --> C[Canonical Course Content]
+    C --> G[GitHub Reader]
+    C --> M[MkDocs Reference Site]
+    C --> N[Next.js Learning App]
+    N --> E[Interactive Exercises]
+    E --> V[Selective Three.js Visualizations]
+    N --> P[Vercel Production]
+```
 
-The learning engine must remain functional without the 3D layer.
+### Presentation layers
 
-## Local docs
+- **GitHub** provides direct access to project documentation and source history.
+- **MkDocs Material** provides the research and reference manual locally.
+- **Next.js** provides the public learning experience.
+- **Three.js** is reserved for interactions where motion or spatial representation improves understanding.
+- **Vercel** is the intended production host for the public application.
+
+## Development model
+
+This repository does **not** use GitHub Actions as its CI gate.
+
+Production changes must pass local release gates before they are intentionally promoted to production.
+
+```bash
+npm install
+npm run ci:local
+```
+
+The local app gate verifies TypeScript and the production Next.js build. Documentation is validated separately with:
 
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements-docs.txt
+mkdocs build --strict
+```
+
+See **[Local CI and Release Gates](docs/implementation/local-ci.md)** for the release policy.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open `http://localhost:3000`.
+
+For the documentation site:
+
+```bash
+pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
-Then open the local address shown by MkDocs.
+## Project map
 
-## GitHub Pages
+- **[Documentation map](docs/SUMMARY.md)**
+- **[Product vision](docs/product/index.md)**
+- **[Exercise system](docs/product/course-exercises.md)**
+- **[UI design](docs/product/ui-design.md)**
+- **[FTEM research](docs/frameworks/ftem/index.md)**
+- **[Sources](docs/sources/index.md)**
+- **[Architecture](docs/architecture/public-platform.md)**
+- **[Agent instructions](AGENTS.md)**
 
-A Pages workflow is included in `.github/workflows/docs.yml`. In the repository settings, select **Settings → Pages → Source → GitHub Actions** once. Pushes to `main` will then build and deploy the MkDocs site.
+## Ownership and license
 
-## Important source boundary
+Copyright © 2026 **Gh0stlyKn1ght**. All Rights Reserved.
 
-The historical 2011 Learning Map supplied for research contains an explicit restriction on digitization. Do **not** commit or reproduce proprietary source PDFs, full rubrics, protocols, evaluator forms, scoring descriptors, or protected graphics unless permission is established. This repository should record citations, concepts, original analysis, original examples, and links to authoritative sources rather than cloning proprietary materials.
+This project is **not open source**. Public access to the website or visibility of repository contents does not grant permission to copy, redistribute, republish, sell, sublicense, create derivative products from, or deploy the source code or original course content.
+
+See **[LICENSE](LICENSE)** for the repository license notice.
+
+Third-party frameworks, trademarks, quotations, source materials, libraries, and referenced works remain the property of their respective owners and are governed by their own terms.
+
+## Source and copyright boundary
+
+The historical 2011 Learning Map used in project research contains an explicit restriction on digitization. Do not commit or reproduce proprietary source PDFs, full rubrics, protocols, evaluator forms, scoring descriptors, or protected graphics unless redistribution permission is established.
+
+Teaching Practice Lab should use documented sources to create **original explanations, examples, diagrams, scenarios, and exercises**, rather than cloning proprietary training materials.
+
+## Author
+
+Designed and developed by **[@Gh0stlyKn1ght](https://github.com/Gh0stlyKn1ght)**.
