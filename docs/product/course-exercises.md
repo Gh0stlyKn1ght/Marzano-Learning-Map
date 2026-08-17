@@ -1,6 +1,6 @@
-# Open Course Exercise System
+# Course Exercise System
 
-Teaching Practice Lab uses exercises to strengthen recall, discrimination, application, and instructional reasoning. Exercises are open, repeatable, and do not require an account, score history, XP, or rank.
+Teaching Practice Lab uses exercises to strengthen recall, discrimination, application, and instructional reasoning. Exercises are repeatable and do not require an account, score history, XP, or rank.
 
 ## Exercise families
 
@@ -66,9 +66,9 @@ Better feedback:
 
 > The activity shows students working together, but that alone does not establish the intended cognitive interaction with content. Look for evidence of what students were required to process, explain, compare, or revise.
 
-## Open-course rule
+## Public course rule
 
-Every core exercise must remain usable without:
+Every core exercise should remain usable without:
 
 - login,
 - learner profile,
@@ -76,10 +76,11 @@ Every core exercise must remain usable without:
 - leaderboard,
 - XP,
 - rank,
-- subscription,
 - student information.
 
-A learner may repeat any exercise as often as useful.
+A learner may repeat an exercise as often as useful on the hosted Teaching Practice Lab site.
+
+Public access to these exercises does not grant permission to republish or redistribute the original exercise bank outside the platform. See `LICENSE`.
 
 ## Interactive media
 
