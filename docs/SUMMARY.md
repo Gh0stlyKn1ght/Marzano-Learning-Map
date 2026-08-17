@@ -44,6 +44,14 @@ These documents are the current priority. They define what must be known and ver
 - [Establishing and Maintaining Effective Relationships in Student-Centered Classrooms](course/dossiers/conditions-for-learning/relationships.md)
 - [Communicating High Expectations for Each Student to Close the Achievement Gap](course/dossiers/conditions-for-learning/high-expectations.md)
 
+### Professional Responsibilities research dossiers
+
+- [Dossier index](course/dossiers/professional-responsibilities/index.md)
+- [Distinction matrix](course/dossiers/professional-responsibilities/distinction-matrix.md)
+- [Adhering to School and District Policies and Procedures](course/dossiers/professional-responsibilities/policies-and-procedures.md)
+- [Maintaining Expertise in Content and Pedagogy](course/dossiers/professional-responsibilities/expertise-content-pedagogy.md)
+- [Promoting Teacher Leadership and Collaboration](course/dossiers/professional-responsibilities/teacher-leadership-collaboration.md)
+
 ### Course/product references
 
 - [Teaching Practice Lab product vision](product/index.md)
