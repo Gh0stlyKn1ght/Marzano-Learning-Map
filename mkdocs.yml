@@ -57,6 +57,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Documentation Map: SUMMARY.md
+  - Course Research:
+      - Full Course Blueprint: course/course-blueprint.md
+      - Learning Design: course/learning-design.md
+      - FTEM Framework Map: course/framework-map.md
+      - Research Backlog: course/research-backlog.md
   - Project:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
@@ -70,6 +75,9 @@ nav:
       - Overview: frameworks/index.md
       - FTEM: frameworks/ftem/index.md
       - Legacy 2011: frameworks/legacy-2011/index.md
+  - Sources:
+      - Source Policy: sources/index.md
+      - Registry: sources/registry.md
   - Architecture:
       - Overview: architecture/index.md
       - Libraries: architecture/libraries.md
@@ -78,6 +86,3 @@ nav:
       - Overview: implementation/README.md
       - Local CI: implementation/local-ci.md
       - Validation: implementation/testing.md
-  - Sources:
-      - Source Policy: sources/index.md
-      - Registry: sources/registry.md
