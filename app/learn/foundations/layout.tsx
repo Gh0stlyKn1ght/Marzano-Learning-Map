@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { foundationLessons } from "@/content/foundations-course";
+import "./lesson.css";
 
 export default function FoundationsLayout({ children }: { children: ReactNode }) {
   return (
