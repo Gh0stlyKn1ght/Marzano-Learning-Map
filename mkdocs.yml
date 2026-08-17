@@ -62,6 +62,19 @@ nav:
       - Learning Design: course/learning-design.md
       - FTEM Framework Map: course/framework-map.md
       - Research Backlog: course/research-backlog.md
+      - Standards-Based Instruction Dossiers:
+          - Overview: course/dossiers/standards-based-instruction/index.md
+          - Distinction Matrix: course/dossiers/standards-based-instruction/distinction-matrix.md
+          - Identifying Critical Content: course/dossiers/standards-based-instruction/identifying-critical-content.md
+          - Previewing New Content: course/dossiers/standards-based-instruction/previewing-new-content.md
+          - Processing New Content: course/dossiers/standards-based-instruction/processing-new-content.md
+          - Questions to Elaborate: course/dossiers/standards-based-instruction/elaborating-with-questions.md
+          - Reviewing Content: course/dossiers/standards-based-instruction/reviewing-content.md
+          - Practice Skills/Strategies/Processes: course/dossiers/standards-based-instruction/practice-skills-strategies-processes.md
+          - Similarities and Differences: course/dossiers/standards-based-instruction/similarities-and-differences.md
+          - Examine Reasoning: course/dossiers/standards-based-instruction/examine-reasoning.md
+          - Revise Knowledge: course/dossiers/standards-based-instruction/revise-knowledge.md
+          - Cognitively Complex Tasks: course/dossiers/standards-based-instruction/cognitively-complex-tasks.md
   - Project:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
