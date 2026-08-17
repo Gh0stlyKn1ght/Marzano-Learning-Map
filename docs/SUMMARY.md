@@ -16,6 +16,24 @@ These documents are the current priority. They define what must be known and ver
 - [Learning design and evidence base](course/learning-design.md)
 - [FTEM course-authoring framework map](course/framework-map.md)
 - [Research backlog](course/research-backlog.md)
+
+### Standards-Based Instruction research dossiers
+
+- [Dossier index](course/dossiers/standards-based-instruction/index.md)
+- [Distinction matrix](course/dossiers/standards-based-instruction/distinction-matrix.md)
+- [Identifying Critical Content](course/dossiers/standards-based-instruction/identifying-critical-content.md)
+- [Previewing New Content](course/dossiers/standards-based-instruction/previewing-new-content.md)
+- [Processing New Content](course/dossiers/standards-based-instruction/processing-new-content.md)
+- [Using Questions to Help Students Elaborate on Content](course/dossiers/standards-based-instruction/elaborating-with-questions.md)
+- [Reviewing Content](course/dossiers/standards-based-instruction/reviewing-content.md)
+- [Helping Students Practice Skills, Strategies, and Processes](course/dossiers/standards-based-instruction/practice-skills-strategies-processes.md)
+- [Helping Students Examine Similarities and Differences](course/dossiers/standards-based-instruction/similarities-and-differences.md)
+- [Helping Students Examine Their Reasoning](course/dossiers/standards-based-instruction/examine-reasoning.md)
+- [Helping Students Revise Their Knowledge](course/dossiers/standards-based-instruction/revise-knowledge.md)
+- [Helping Students Engage in Cognitively Complex Tasks](course/dossiers/standards-based-instruction/cognitively-complex-tasks.md)
+
+### Course/product references
+
 - [Teaching Practice Lab product vision](product/index.md)
 - [Course exercise system](product/course-exercises.md)
 - [Foundations: Think Like the Framework](paths/foundations/index.md)
