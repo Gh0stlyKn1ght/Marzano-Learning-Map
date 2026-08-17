@@ -6,32 +6,23 @@ import { foundationsChallenges } from "@/content/foundations";
 export default function ChallengeRunner() {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
-  const [score, setScore] = useState(0);
 
   const challenge = foundationsChallenges[index];
   const complete = selected !== null;
   const correct = selected === challenge.answer;
-  const progress = Math.round(((index + (complete ? 1 : 0)) / foundationsChallenges.length) * 100);
 
   const resultLabel = useMemo(() => {
     if (!complete) return null;
-    return correct ? "Evidence accepted" : "Reasoning gap detected";
+    return correct ? "Reasoning supported" : "Reconsider the evidence";
   }, [complete, correct]);
 
   function choose(id: string) {
     if (complete) return;
     setSelected(id);
-    if (id === challenge.answer) setScore((value) => value + 1);
   }
 
   function next() {
-    if (index === foundationsChallenges.length - 1) {
-      setIndex(0);
-      setSelected(null);
-      setScore(0);
-      return;
-    }
-    setIndex((value) => value + 1);
+    setIndex((value) => (value + 1) % foundationsChallenges.length);
     setSelected(null);
   }
 
@@ -42,10 +33,9 @@ export default function ChallengeRunner() {
           <div className="eyebrow">{challenge.difficulty} · {challenge.dimension}</div>
           <h2>{challenge.title}</h2>
         </div>
-        <span className="badge">{index + 1} / {foundationsChallenges.length}</span>
+        <span className="badge">practice {index + 1} / {foundationsChallenges.length}</span>
       </div>
 
-      <div className="progress"><span style={{ width: `${progress}%` }} /></div>
       <p className="question">{challenge.prompt}</p>
 
       <div className="choices">
@@ -73,9 +63,9 @@ export default function ChallengeRunner() {
           <strong>{resultLabel}</strong>
           <p>{challenge.explanation}</p>
           <div className="row">
-            <span>Session score: {score} / {index + 1}</span>
+            <span className="subtle">No score is stored. Use the explanation to test your reasoning.</span>
             <button className="button" onClick={next}>
-              {index === foundationsChallenges.length - 1 ? "Restart run" : "Next challenge"}
+              {index === foundationsChallenges.length - 1 ? "Start again" : "Next practice"}
             </button>
           </div>
         </div>
