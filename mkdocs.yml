@@ -1,5 +1,5 @@
 site_name: Teaching Practice Lab
-site_description: Open-source course for learning, practicing, and defending instructional frameworks.
+site_description: Public instructional learning platform for understanding, practicing, and defending instructional frameworks.
 repo_url: https://github.com/Gh0stlyKn1ght/Marzano-Learning-Map
 repo_name: Gh0stlyKn1ght/Marzano-Learning-Map
 edit_uri: edit/main/docs/
@@ -61,7 +61,7 @@ nav:
       - Doctrine: project/doctrine.md
       - Roadmap: project/roadmap.md
       - Terminology: project/terminology.md
-  - Open Course:
+  - Course:
       - Vision: product/index.md
       - Exercise System: product/course-exercises.md
       - UI Design: product/ui-design.md
@@ -73,7 +73,11 @@ nav:
   - Architecture:
       - Overview: architecture/index.md
       - Libraries: architecture/libraries.md
-      - Open Course: architecture/open-course.md
+      - Public Platform: architecture/public-platform.md
+  - Implementation:
+      - Overview: implementation/README.md
+      - Local CI: implementation/local-ci.md
+      - Validation: implementation/testing.md
   - Sources:
       - Source Policy: sources/index.md
       - Registry: sources/registry.md
