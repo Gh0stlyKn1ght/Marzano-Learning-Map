@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ftemDomains, getFtemDomain } from "@/content/ftem";
+import { getCourseDossierRoutes } from "@/lib/course-dossiers";
 
 export function generateStaticParams() {
   return ftemDomains.map((domain) => ({ domain: domain.slug }));
@@ -13,6 +14,7 @@ export default async function DomainPage({
 }) {
   const { domain: slug } = await params;
   const domain = getFtemDomain(slug);
+  const lessonRoutes = getCourseDossierRoutes();
 
   if (!domain) notFound();
 
@@ -53,15 +55,21 @@ export default async function DomainPage({
         <div className="eyebrow">Competency map</div>
         <h2>{domain.title}</h2>
         <div className="stack">
-          {domain.elements.map((element, index) => (
-            <div className="action" key={element}>
-              <div>
-                <strong>{String(index + 1).padStart(2, "0")} · {element}</strong>
-                <span className="subtle">Full learning page will add mechanism, evidence, false positives, adaptation, CS examples, recall, and defense practice.</span>
+          {domain.elements.map((element, index) => {
+            const lesson = lessonRoutes.find((item) => item.domain === domain.slug && item.title === element);
+
+            return (
+              <div className="action" key={element}>
+                <div>
+                  <strong>{String(index + 1).padStart(2, "0")} · {element}</strong>
+                  <span className="subtle">{lesson ? "Read the source-bound lesson, original scenario, evidence checks, and defense prompts." : "Lesson authoring is sequenced after its public-source basis is verified and reviewed."}</span>
+                </div>
+                {lesson ? (
+                  <Link className="button secondary" href={`/learn/${domain.slug}/${lesson.slug}`}>Read lesson</Link>
+                ) : <span className="badge">research-backed map</span>}
               </div>
-              <span className="badge">course page next</span>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
 

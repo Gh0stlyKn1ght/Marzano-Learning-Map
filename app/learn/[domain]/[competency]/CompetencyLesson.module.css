@@ -1,0 +1,16 @@
+.statusLine { display:flex; align-items:center; flex-wrap:wrap; gap:10px; color:var(--muted); font-size:.78rem; margin-top:22px; }
+.scenario { margin:18px 0; padding:26px; border:1px solid var(--line); border-radius:18px; background:linear-gradient(135deg, rgba(255,255,255,.04), transparent 48%), var(--panel); }
+.scenario h2 { margin:10px 0 16px; font-size:1.25rem; }
+.scenario p { color:var(--muted); line-height:1.7; }
+.scenario strong,.comparison strong { color:var(--text); }
+.comparison { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.comparison > div { padding:16px; border:1px solid var(--line); border-radius:14px; background:var(--panel-2); }
+.comparison p { color:var(--muted); line-height:1.6; margin:8px 0 0; font-size:.9rem; }
+.sideCopy,.unresolved { color:var(--muted); font-size:.85rem; line-height:1.65; }
+.sourceList { display:grid; gap:7px; margin:20px 0; padding:16px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); font-size:.78rem; }
+.sourceList span { color:var(--muted); }
+.unresolved { margin-bottom:22px; }
+
+@media (max-width: 620px) {
+  .comparison { grid-template-columns:1fr; }
+}
