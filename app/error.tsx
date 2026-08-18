@@ -4,9 +4,9 @@ export default function Error({ reset }: { error: Error & { digest?: string }; r
   return (
     <main className="shell">
       <section className="card">
-        <div className="eyebrow">System fault</div>
-        <h1>Training interrupted.</h1>
-        <p className="lead">The learning state was not intentionally changed. Retry this screen.</p>
+        <div className="eyebrow">Something went wrong</div>
+        <h1>This page could not load.</h1>
+        <p className="lead">No learning activity is stored here. Please retry the screen.</p>
         <button className="button" onClick={reset}>Retry</button>
       </section>
     </main>

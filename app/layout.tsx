@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Teaching Practice Lab",
-  description: "Game-based instructional mastery platform",
+  description: "An independent, public learning space for practicing evidence-based instructional reasoning.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
